@@ -8,7 +8,7 @@
 
 #import "CCSprite.h"
 
-@interface WalkingSprite : CCSprite
+@interface WalkingSprite : AnimationSprite
 
 
 -(id) initWithFile:(NSString *)filename ;

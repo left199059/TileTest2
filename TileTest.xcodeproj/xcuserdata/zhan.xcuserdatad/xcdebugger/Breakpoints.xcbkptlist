@@ -320,11 +320,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "TileTest/AIWalkingSprite.m"
-         timestampString = "385305019.843203"
+         timestampString = "385312850.021815"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "53"
-         endingLineNumber = "53"
+         startingLineNumber = "54"
+         endingLineNumber = "54"
          landmarkName = "-onArrived"
          landmarkType = "5">
       </FileBreakpoint>

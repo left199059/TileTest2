@@ -28,9 +28,9 @@
 		
 		[frames addObject:frame];
 	}
-	
+
 	// create an animation object from all the sprite animation frames
-	return [CCAnimation animationWithSpriteFrames:frames delay:delay];
+	return [CCAnimation animationWithFrames:frames delay:delay];
 }
 
 // Creates an animation from sprite frames.
@@ -47,7 +47,7 @@
 	}
 	
 	// return an animation object from all the sprite animation frames
-	return [CCAnimation animationWithSpriteFrames:frames delay:delay];
+	return [CCAnimation animationWithFrames:frames delay:delay];
 }
 
 @end

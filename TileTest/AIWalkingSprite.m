@@ -22,6 +22,7 @@ PathNav* _pathNav;
 
     _pathNav = pathNav;
     
+    [self startAnimation:@"ship-anim" frameCount:5 delay:0.2];
     
     return self;
 }

@@ -14,16 +14,17 @@
 #import "cocos2d.h"
 #import "GameHelper.h"
 #import "InputHelper.h"
+#import "CCAnimationHelper.h"
 #import "BoundingLayer.h"
 #import "TransitionScene.h"
 #import "MapLayer.h"
 
 #import "PathNav.h"
 #import "PointPathNav.h"
-
+#import "AnimationSprite.h"
 #import "WalkingSprite.h"
 #import "AIWalkingSprite.h"
-#import "CCAnimationHelper.h"
+
 #import "GameScene.h"
 #import "GameLayer.h"
 #import "UILayer.h"
