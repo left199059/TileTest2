@@ -10,7 +10,10 @@
 
 @interface WalkingSprite : AnimationSprite
 
-
+{
+    @public
+    float speed;
+}
 -(id) initWithFile:(NSString *)filename ;
 
 -(void) moveToPos:(CGPoint) pos;

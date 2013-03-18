@@ -38,7 +38,20 @@ int spawnTimeRnd = 80;
    
     //all paths layer names
     NSMutableArray* paths = [NSMutableArray array];
+    
+//    for(int i=1;i<=1;i++)
+//    {
+//        NSString* name = [NSString stringWithFormat:@"PATH%i",i];
+//        [paths addObject: name];
+//    }
     [paths addObject: @"PATH1"];
+    [paths addObject: @"PATH2"];
+//    [paths addObject: @"PATH3"];
+//    [paths addObject: @"PATH4"];
+//    [paths addObject: @"PATH5"];
+//    [paths addObject: @"PATH6"];
+//    [paths addObject: @"PATH7"];
+//    [paths addObject: @"PATH8"];
     
     for(int i =0;i<_enemyCount;i++)
     {
@@ -48,10 +61,13 @@ int spawnTimeRnd = 80;
         PointPathNav* pathNav = [[PointPathNav alloc] initWithMap:self  andLayer:pathLayer];
         
         AIWalkingSprite* _enemy = [AIWalkingSprite spriteWithFile:@"enemy.png" andNav:pathNav];
+        
         [self addChild:_enemy];
         [_enemies addObject:_enemy];
         
         _enemy.visible = false;
+     
+        _enemy->speed = 0.05f;
 
     }
     
@@ -64,7 +80,8 @@ int spawnTimeRnd = 80;
 
     self.isTouchEnabled = true;
 	
-    [self unscheduleUpdate];    [self scheduleUpdate];
+    [self unscheduleUpdate];
+    [self scheduleUpdate];
     
     
 

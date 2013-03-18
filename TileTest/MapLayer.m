@@ -26,15 +26,16 @@
     [self addChild:mapSprite z:-2];
     mapSize = mapSprite.texture.contentSize;
     
-    //CCTMXLayer* _eventLayer = [_tileMap layerNamed:@"HeroPathLayer"];
-    //_eventLayer.visible = NO;
-    
-
 
     
-    
-    //CCTMXLayer* pathLayer = [_tileMap layerNamed:@"PathLayer"];
-    //pathLayer.visible = NO;
+//    for(int i=1;i<=8;i++)
+//    {
+//        NSString* name = [NSString stringWithFormat:@"PATH%i",i];
+//        
+//        CCTMXLayer* _eventLayer = [_tileMap layerNamed:name];
+//        _eventLayer.visible = NO;
+//    }
+
     
     [self unscheduleUpdate];
     [self scheduleUpdate];
