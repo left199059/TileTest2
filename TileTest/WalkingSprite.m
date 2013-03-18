@@ -37,11 +37,12 @@
 //    }
 
 }
-
+int moveActionTag = 100;
 
 -(void) moveToPos:(CGPoint) pos
 {
-    [self stopAllActions];
+   
+    [self stopActionByTag:moveActionTag];
     
     CGPoint oldPos = [self position];
     float distance = ccpDistance(oldPos, pos) ;
@@ -49,10 +50,10 @@
     float time = distance * 0.01f;
     CCMoveTo* move = [CCMoveTo actionWithDuration:time position:pos];
     CCCallFunc* callback = [CCCallFunc actionWithTarget:self selector:@selector(onArrived)];
+    CCSequence* moveAction = [CCSequence actions:move,callback, nil];
     
-    CCSequence* actions = [CCSequence actions:move,callback, nil];
-    
-    [self runAction:actions];
+    moveAction.tag = moveActionTag;
+    [self runAction:moveAction];
 }
 
 -(void) onArrived

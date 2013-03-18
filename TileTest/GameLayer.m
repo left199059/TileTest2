@@ -10,7 +10,7 @@ WalkingSprite* _hero;
 InputHelper* input;
 bool moved;
 CCRibbon* ribbon;
-int _enemyCount=1;
+int _enemyCount=5;
 int nextSpawnTime = 0;
 
 -(void) dealloc
