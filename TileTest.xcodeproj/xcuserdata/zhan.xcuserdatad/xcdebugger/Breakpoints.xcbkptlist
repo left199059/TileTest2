@@ -21,11 +21,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "TileTest/GameLayer.m"
-         timestampString = "385315234.089321"
+         timestampString = "385318447.351586"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "157"
-         endingLineNumber = "157"
+         startingLineNumber = "168"
+         endingLineNumber = "168"
          landmarkName = "-ccTouchesBegan:withEvent:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -34,11 +34,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "TileTest/GameLayer.m"
-         timestampString = "385315234.089321"
+         timestampString = "385318447.351586"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "160"
-         endingLineNumber = "160"
+         startingLineNumber = "171"
+         endingLineNumber = "171"
          landmarkName = "-ccTouchesBegan:withEvent:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -73,11 +73,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "TileTest/GameLayer.m"
-         timestampString = "385305019.843203"
+         timestampString = "385318447.351586"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "56"
-         endingLineNumber = "56"
+         startingLineNumber = "67"
+         endingLineNumber = "67"
          landmarkName = "-init"
          landmarkType = "5">
       </FileBreakpoint>
@@ -112,11 +112,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "TileTest/GameLayer.m"
-         timestampString = "385142017.216409"
+         timestampString = "385318447.351586"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "25"
-         endingLineNumber = "25"
+         startingLineNumber = "29"
+         endingLineNumber = "29"
          landmarkName = "-init"
          landmarkType = "5">
       </FileBreakpoint>
@@ -138,11 +138,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "TileTest/MapLayer.m"
-         timestampString = "385109560.888285"
+         timestampString = "385319828.434737"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "37"
-         endingLineNumber = "37"
+         startingLineNumber = "39"
+         endingLineNumber = "39"
          landmarkName = "-initWithTMX:AndMap:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -151,37 +151,37 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "TileTest/MapLayer.m"
-         timestampString = "385110269.176827"
+         timestampString = "385319828.434737"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "279"
+         endingLineNumber = "279"
+         landmarkName = "-locationFromTilePos:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "TileTest/MapLayer.m"
+         timestampString = "385319828.434737"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "280"
+         endingLineNumber = "280"
+         landmarkName = "-locationFromTilePos:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "TileTest/MapLayer.m"
+         timestampString = "385319828.434737"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "277"
          endingLineNumber = "277"
-         landmarkName = "-locationFromTilePos:"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "TileTest/MapLayer.m"
-         timestampString = "385110269.176827"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "278"
-         endingLineNumber = "278"
-         landmarkName = "-locationFromTilePos:"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "TileTest/MapLayer.m"
-         timestampString = "385110269.176827"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "275"
-         endingLineNumber = "275"
          landmarkName = "-locationFromTilePos:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -216,11 +216,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "TileTest/MapLayer.m"
-         timestampString = "385110269.176827"
+         timestampString = "385319828.434737"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "314"
-         endingLineNumber = "314"
+         startingLineNumber = "316"
+         endingLineNumber = "316"
          landmarkName = "-tileKey:AtPoint:inLayer:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -228,64 +228,12 @@
          shouldBeEnabled = "No"
          ignoreCount = "0"
          continueAfterRunningActions = "No"
-         filePath = "TileTest/MapLayer.m"
-         timestampString = "385110269.176827"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "194"
-         endingLineNumber = "194"
-         landmarkName = "-getNextPointOnPathWithCurrent:AndPrevious:"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "TileTest/MapLayer.m"
-         timestampString = "385110269.176827"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "185"
-         endingLineNumber = "185"
-         landmarkName = "-getNextPointOnPathWithCurrent:AndPrevious:"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "TileTest/MapLayer.m"
-         timestampString = "385110269.176827"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "257"
-         endingLineNumber = "257"
-         landmarkName = "-getNextPointOnPathWithCurrent:AndPrevious:"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "TileTest/MapLayer.m"
-         timestampString = "385110269.176827"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "263"
-         endingLineNumber = "263"
-         landmarkName = "-getNextPointOnPathWithCurrent:AndPrevious:"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
          filePath = "TileTest/GameLayer.m"
-         timestampString = "385305019.843203"
+         timestampString = "385318447.351586"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "54"
-         endingLineNumber = "54"
+         startingLineNumber = "65"
+         endingLineNumber = "65"
          landmarkName = "-init"
          landmarkType = "5">
       </FileBreakpoint>
@@ -294,11 +242,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "TileTest/GameLayer.m"
-         timestampString = "385315234.089321"
+         timestampString = "385318447.351586"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "66"
-         endingLineNumber = "66"
+         startingLineNumber = "77"
+         endingLineNumber = "77"
          landmarkName = "-spawnEnemy"
          landmarkType = "5">
       </FileBreakpoint>
@@ -307,11 +255,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "TileTest/GameLayer.m"
-         timestampString = "385315234.089321"
+         timestampString = "385318447.351586"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "100"
-         endingLineNumber = "100"
+         startingLineNumber = "111"
+         endingLineNumber = "111"
          landmarkName = "-update:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -333,11 +281,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "TileTest/PointPathNav.m"
-         timestampString = "385273443.225859"
+         timestampString = "385317979.160279"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "40"
-         endingLineNumber = "40"
+         startingLineNumber = "42"
+         endingLineNumber = "42"
          landmarkName = "-getNext:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -365,6 +313,19 @@
          startingLineNumber = "23"
          endingLineNumber = "23"
          landmarkName = "-initWithFile:andNav:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "TileTest/MapLayer.m"
+         timestampString = "385319822.99413"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "33"
+         endingLineNumber = "33"
+         landmarkName = "-initWithTMX:AndMap:"
          landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>

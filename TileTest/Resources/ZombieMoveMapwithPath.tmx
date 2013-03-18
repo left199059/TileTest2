@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="102" height="77" tilewidth="10" tileheight="10">
+ <tileset firstgid="1" name="grounds" tilewidth="10" tileheight="10">
+  <image source="grounds.png" width="128" height="128"/>
+  <tile id="49">
+   <properties>
+    <property name="dir" value="up"/>
+   </properties>
+  </tile>
+  <tile id="60">
+   <properties>
+    <property name="dir" value="left"/>
+   </properties>
+  </tile>
+  <tile id="62">
+   <properties>
+    <property name="dir" value="right"/>
+   </properties>
+  </tile>
+  <tile id="73">
+   <properties>
+    <property name="dir" value="down"/>
+   </properties>
+  </tile>
+ </tileset>
+ <imagelayer name="Image Layer 1" width="102" height="77" opacity="0.06">
+  <image source="ZombieMoveMap1.png"/>
+ </imagelayer>
+ <layer name="PATH1" width="102" height="77" opacity="0.82">
+  <data encoding="base64" compression="zlib">
+   eJzt2kkNACAMBECMYQD/gpDQDwk9ZhQ0abqPTdeCWc7vAQAABtq/BwAAAABoRt8CAAAA8J4/YwBe0uVDzJ3kYA9AFvIIyEYuAZXILKAKeQUxdwIAAADABHowAAAAALrTgQGZXPoNA3E=
+  </data>
+ </layer>
+ <layer name="PATH2" width="102" height="77" opacity="0.43">
+  <data encoding="base64" compression="zlib">
+   eJzt2LEJACAMBEAXcwH3H8jeSiEaIXcTpAgP/60RbWQfAAAAAITR8wEAAACowA4GAADAKV0SAOCenn0AwEIuAb+RS1Tm/wEAAADi2FoAAADYpUMCAAAAxLK3vDMBR94C1A==
+  </data>
+ </layer>
+ <layer name="PATH3" width="102" height="77" opacity="0.37">
+  <data encoding="base64" compression="zlib">
+   eJzt27sNACAIBUAXcwH3H8jeSkkUQ+4meBXhE1rjtpEdAAAAYNGzAwAAAAAUY98CAAAAQHV+IwDY5W4C/ERNAn6jLgEAAADE2a0AAABwyiwJAABAhHkSAOA9Pdg9E1aWAro=
+  </data>
+ </layer>
+ <layer name="PATH4" width="102" height="77" opacity="0.22">
+  <data encoding="base64" compression="zlib">
+   eJzt2LEJACAMBEAXc/+1rO0sEhX+boIk8PBkDAAAAAAAAAAAAAAAAAAAAE7M1wMEcWvYyQT8LTWjqXsDAHRK7VipewMAQBWdGgAA7tC9AQAAAGr5t/Ra3YUCYw==
+  </data>
+ </layer>
+ <layer name="PATH5" width="102" height="77" opacity="0.42">
+  <data encoding="base64" compression="zlib">
+   eJzt2IkJACAIAEAXa/+1WiGEsvJuAhHFJwIAAAAAAAAAAAAAAAB4wagOAIC2zKAceQMAyLNLsZsagx70OgAA3dmJ18kVAAAAN3GnAgAAAPAz/69zJhl2AmM=
+  </data>
+ </layer>
+ <layer name="PATH6" width="102" height="77" opacity="0.54">
+  <data encoding="base64" compression="zlib">
+   eJzt18ENACAIBDAXc/+1fPomUQnSTqBgDhwDAAAAAAAAAAAAAAAAAAC2mX2ARtT6f3pMRd5tDnUHIKLL3OhyT4CXZCtAL3IfADjBTgFUJLsAAACI8I8EAMhhD7tvAT/UAxo=
+  </data>
+ </layer>
+ <layer name="PATH7" width="102" height="77">
+  <data encoding="base64" compression="zlib">
+   eJzt1skJACAMBEAbs/+2fAo+lRiPmQqC7JqUAgAAAAAAAAAAAAAAAAAQr2YPAMl0ALqMPuggp5FJVskQO8gZMPIvMENuAADAXTzLuwFwA/sKAN5n3wMA5HGLAcAf7Pw4DY1+A5Q=
+  </data>
+ </layer>
+ <layer name="PATH8" width="102" height="77">
+  <data encoding="base64" compression="zlib">
+   eJzt2MENABAMBVCLWcD+A7k7SCSK1HsTNHX4fkshUrs9AACpyBUAgPP8wQAAAAD4gTsYAOQm6wEAAFilSwIwqrcHSGC2Q/t9nzcCAACi6R0AAACs0CMBAICX6SwA7CZbACA/eR+nA9fmA+I=
+  </data>
+ </layer>
+</map>

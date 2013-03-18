@@ -27,7 +27,7 @@ int spawnTimeRnd = 80;
 
 -(id) init
 {
-	self = [super initWithTMX:@"map.tmx" AndMap:@"map.png" ];
+	self = [super initWithTMX:@"ZombieMoveMapwithPath.tmx" AndMap:@"ZombieMoveMap1.png" ];
     
 	if(self==nil)
         return nil;
@@ -38,7 +38,7 @@ int spawnTimeRnd = 80;
    
     //all paths layer names
     NSMutableArray* paths = [NSMutableArray array];
-    [paths addObject: @"PathLayer"];
+    [paths addObject: @"PATH1"];
     
     for(int i =0;i<_enemyCount;i++)
     {
@@ -80,7 +80,7 @@ int spawnTimeRnd = 80;
             continue;
         
         
-        CGPoint startPoint =  [self locationFromTilePos: ccp(16,27)];
+        CGPoint startPoint =  [self locationFromTilePos: ccp(87,1)];
         enemy.position = startPoint;
         [enemy start];
         enemy.visible = true;

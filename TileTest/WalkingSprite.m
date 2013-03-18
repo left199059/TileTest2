@@ -47,7 +47,7 @@ int moveActionTag = 100;
     CGPoint oldPos = [self position];
     float distance = ccpDistance(oldPos, pos) ;
     
-    float time = distance * 0.01f;
+    float time = distance * 0.03f;
     CCMoveTo* move = [CCMoveTo actionWithDuration:time position:pos];
     CCCallFunc* callback = [CCCallFunc actionWithTarget:self selector:@selector(onArrived)];
     CCSequence* moveAction = [CCSequence actions:move,callback, nil];

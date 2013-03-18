@@ -15,10 +15,16 @@
 {
 	// load the animation frames as textures and create the sprite frames
 	NSMutableArray* frames = [NSMutableArray arrayWithCapacity:frameCount];
+    
+    int rndStart = rand()%frameCount;
+    
 	for (int i = 0; i < frameCount; i++)
 	{
 		// Assuming all animation files are named "nameX.png" with X being a consecutive number starting with 0.
-		NSString* file = [NSString stringWithFormat:@"%@%i.png", name, i];
+        
+        int index = (i +rndStart)%frameCount;
+        
+		NSString* file = [NSString stringWithFormat:@"%@%i.png", name, index];
 		CCTexture2D* texture = [[CCTextureCache sharedTextureCache] addImage:file];
 
 		// Assuming that image file animations always use the whole image for each animation frame.
@@ -38,9 +44,14 @@
 {
 	// load the ship's animation frames as textures and create a sprite frame
 	NSMutableArray* frames = [NSMutableArray arrayWithCapacity:frameCount];
+    
+    int rndStart = rand()%frameCount;
+    
 	for (int i = 0; i < frameCount; i++)
 	{
-		NSString* file = [NSString stringWithFormat:@"%@%i.png", frame, i];
+        int index = (i +rndStart)%frameCount;
+        
+		NSString* file = [NSString stringWithFormat:@"%@%i.png", frame, index];
 		CCSpriteFrameCache* frameCache = [CCSpriteFrameCache sharedSpriteFrameCache];
 		CCSpriteFrame* frame = [frameCache spriteFrameByName:file];
 		[frames addObject:frame];
