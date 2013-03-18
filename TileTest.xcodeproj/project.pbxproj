@@ -20,6 +20,10 @@
 		7F61033716F75999008B7D2E /* ship-anim3.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F61033216F75999008B7D2E /* ship-anim3.png */; };
 		7F61033816F75999008B7D2E /* ship-anim4.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F61033316F75999008B7D2E /* ship-anim4.png */; };
 		7F61033B16F766FB008B7D2E /* AnimationSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F61033A16F766FB008B7D2E /* AnimationSprite.m */; };
+		7F61033D16F770BE008B7D2E /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F61033C16F770BE008B7D2E /* 1.png */; };
+		7F61034016F77120008B7D2E /* TowerSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F61033F16F77120008B7D2E /* TowerSprite.m */; };
+		7F61034316F773F5008B7D2E /* TouchableSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F61034216F773F4008B7D2E /* TouchableSprite.m */; };
+		7F61034616F77406008B7D2E /* DragableSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F61034516F77406008B7D2E /* DragableSprite.m */; };
 		7FC8303416EEC3D3006C1A84 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FC8303316EEC3D3006C1A84 /* QuartzCore.framework */; };
 		7FC8303616EEC3D3006C1A84 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FC8303516EEC3D3006C1A84 /* OpenGLES.framework */; };
 		7FC8303816EEC3D3006C1A84 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FC8303716EEC3D3006C1A84 /* OpenAL.framework */; };
@@ -167,6 +171,13 @@
 		7F61033316F75999008B7D2E /* ship-anim4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ship-anim4.png"; sourceTree = "<group>"; };
 		7F61033916F766FB008B7D2E /* AnimationSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationSprite.h; sourceTree = "<group>"; };
 		7F61033A16F766FB008B7D2E /* AnimationSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationSprite.m; sourceTree = "<group>"; };
+		7F61033C16F770BE008B7D2E /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1.png; path = Resources/1.png; sourceTree = "<group>"; };
+		7F61033E16F77120008B7D2E /* TowerSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TowerSprite.h; sourceTree = "<group>"; };
+		7F61033F16F77120008B7D2E /* TowerSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TowerSprite.m; sourceTree = "<group>"; };
+		7F61034116F773F4008B7D2E /* TouchableSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchableSprite.h; sourceTree = "<group>"; };
+		7F61034216F773F4008B7D2E /* TouchableSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchableSprite.m; sourceTree = "<group>"; };
+		7F61034416F77406008B7D2E /* DragableSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragableSprite.h; sourceTree = "<group>"; };
+		7F61034516F77406008B7D2E /* DragableSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragableSprite.m; sourceTree = "<group>"; };
 		7FC8303016EEC3D3006C1A84 /* TileTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TileTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FC8303316EEC3D3006C1A84 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		7FC8303516EEC3D3006C1A84 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -464,6 +475,12 @@
 				7F46144E16F4CDAB00BD7E0C /* AIWalkingSprite.m */,
 				7F61033916F766FB008B7D2E /* AnimationSprite.h */,
 				7F61033A16F766FB008B7D2E /* AnimationSprite.m */,
+				7F61033E16F77120008B7D2E /* TowerSprite.h */,
+				7F61033F16F77120008B7D2E /* TowerSprite.m */,
+				7F61034116F773F4008B7D2E /* TouchableSprite.h */,
+				7F61034216F773F4008B7D2E /* TouchableSprite.m */,
+				7F61034416F77406008B7D2E /* DragableSprite.h */,
+				7F61034516F77406008B7D2E /* DragableSprite.m */,
 			);
 			name = Sprites;
 			sourceTree = "<group>";
@@ -523,6 +540,7 @@
 		7FC8304416EEC3D3006C1A84 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				7F61033C16F770BE008B7D2E /* 1.png */,
 				7F61032F16F75999008B7D2E /* ship-anim0.png */,
 				7F61033016F75999008B7D2E /* ship-anim1.png */,
 				7F61033116F75999008B7D2E /* ship-anim2.png */,
@@ -947,6 +965,7 @@
 				7F61033616F75999008B7D2E /* ship-anim2.png in Resources */,
 				7F61033716F75999008B7D2E /* ship-anim3.png in Resources */,
 				7F61033816F75999008B7D2E /* ship-anim4.png in Resources */,
+				7F61033D16F770BE008B7D2E /* 1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1068,6 +1087,9 @@
 				7F466F5C16F5560000BD7E0C /* PathNav.m in Sources */,
 				7F466F5F16F5567800BD7E0C /* PointPathNav.m in Sources */,
 				7F61033B16F766FB008B7D2E /* AnimationSprite.m in Sources */,
+				7F61034016F77120008B7D2E /* TowerSprite.m in Sources */,
+				7F61034316F773F5008B7D2E /* TouchableSprite.m in Sources */,
+				7F61034616F77406008B7D2E /* DragableSprite.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

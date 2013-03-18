@@ -21,10 +21,12 @@
 
 #import "PathNav.h"
 #import "PointPathNav.h"
+#import "TouchableSprite.h"
+#import "DragableSprite.h"
 #import "AnimationSprite.h"
 #import "WalkingSprite.h"
 #import "AIWalkingSprite.h"
-
+#import "TowerSprite.h"
 #import "GameScene.h"
 #import "GameLayer.h"
 #import "UILayer.h"

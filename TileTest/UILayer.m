@@ -20,6 +20,12 @@
     
     [self addChild:label];
     glClearColor(1, 1,1, 1);
+    
+    TowerSprite* tower1 = [TowerSprite spriteWithFile:@"1.png"];
+    tower1.position = ccp(50,80);
+    [self addChild:tower1];
+    
+    
     return self;
 }
 

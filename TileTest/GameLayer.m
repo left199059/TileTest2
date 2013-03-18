@@ -56,6 +56,7 @@ int nextSpawnTime = 0;
     [self unscheduleUpdate];    [self scheduleUpdate];
     
     
+
     
 	return self;
 }
