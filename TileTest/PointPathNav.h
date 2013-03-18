@@ -11,10 +11,10 @@
 @interface PointPathNav : PathNav
 
 
--(id) initWithMap:(MapLayer *)map;
+-(id) initWithMap:(MapLayer *)map andLayer:(NSString* ) layerName;
 
 
-+(id) navWithMap:(MapLayer *)map;
++(id) navWithMap:(MapLayer *)map andLayer:(NSString* ) layerName;
 
 
 

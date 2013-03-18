@@ -31,7 +31,7 @@
 -(CGPoint) getNextPointOnPathWithCurrent:(CGPoint)currentPos AndPrevious:(CGPoint) prevPos;
 
 
--(CGPoint) getNextPoint2OnPathWithCurrent:(CGPoint)currentPos AndPrevious:(CGPoint) prevPos;
+-(CGPoint) getNextPoint2OnPathWithCurrent:(CGPoint)currentPos AndPrevious:(CGPoint) prevPos andLayer:(NSString *) layerName;
 
 
 -(NSString*)tileKey:(NSString*) key AtPoint:(CGPoint)tilePos inLayer:(NSString*) layerName;

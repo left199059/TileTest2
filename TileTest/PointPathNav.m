@@ -13,24 +13,26 @@
 
 MapLayer* _tileMap;
 CGPoint prevPos;
+NSString* _layerName;
 
 
--(id) initWithMap:(MapLayer *)map
+-(id) initWithMap:(MapLayer *)map andLayer:(NSString* ) layerName
 {
 	self = [super init];
     if(self==nil)
         return nil;
-    
+    _layerName = layerName;
     
     _tileMap = map;
     
     return self;
 }
 
-+(id) navWithMap:(MapLayer *)map
++(id) navWithMap:(MapLayer *)map andLayer:(NSString* ) layerName
 {
-    return [[[self alloc] initWithMap:map] autorelease];
+    return [[[self alloc] initWithMap:map andLayer:layerName] autorelease];
 }
+
 
 
 
@@ -39,7 +41,7 @@ CGPoint prevPos;
 {
     currentPos = [_tileMap tilePosFromLocation:currentPos];
 
-    CGPoint nextPos = [_tileMap getNextPoint2OnPathWithCurrent:currentPos AndPrevious:prevPos];
+    CGPoint nextPos = [_tileMap getNextPoint2OnPathWithCurrent:currentPos AndPrevious:prevPos andLayer:_layerName];
     
     if(nextPos.x ==-1)
         return nextPos;

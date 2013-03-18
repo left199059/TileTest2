@@ -73,15 +73,15 @@
 }
 
 
--(CGPoint) getNextPoint2OnPathWithCurrent:(CGPoint)currentPos AndPrevious:(CGPoint) prevPos
+-(CGPoint) getNextPoint2OnPathWithCurrent:(CGPoint)currentPos AndPrevious:(CGPoint) prevPos andLayer:(NSString *) layerName;
 {
     CGPoint nextPos = CGPointMake(-1, -1);
     
-    NSString* dir = [self tileKey:@"dir" AtPoint:currentPos inLayer:@"PathLayer"];
+    NSString* dir = [self tileKey:@"dir" AtPoint:currentPos inLayer:layerName];
     
     NSMutableArray* candidates = [NSMutableArray array];
     
-    for(int i= 1;i<=7;i++)
+    for(int i= 1;i<=20;i++)
     {
     
         for(int x = currentPos.x -i;x<=currentPos.x+i;x++)
@@ -98,7 +98,7 @@
                     continue;
                 
                 nextPos = ccp(x,y);
-                bool isPath = [self tileExistsAtPoint:nextPos inLayer:@"PathLayer"];
+                bool isPath = [self tileExistsAtPoint:nextPos inLayer:layerName];
                 
                 if(isPath)
                 {
@@ -110,7 +110,7 @@
                     {
                         if([dir isEqualToString:@"left"] && x<currentPos.x)
                         {
-                            if(y!=currentPos.y && [self tileExistsAtPoint:ccp(nextPos.x, currentPos.y) inLayer:@"PathLayer"])
+                            if(y!=currentPos.y && [self tileExistsAtPoint:ccp(nextPos.x, currentPos.y) inLayer:layerName])
                                 continue;
                             
                             candidate = nextPos;
@@ -119,7 +119,7 @@
                         
                         if([dir isEqualToString:@"right"] && x>currentPos.x)
                         {
-                            if(y!=currentPos.y && [self tileExistsAtPoint:ccp(nextPos.x, currentPos.y) inLayer:@"PathLayer"])
+                            if(y!=currentPos.y && [self tileExistsAtPoint:ccp(nextPos.x, currentPos.y) inLayer:layerName])
                                 continue;
                             
                             candidate = nextPos;
@@ -127,7 +127,7 @@
                         
                         if([dir isEqualToString:@"up"] && y<currentPos.y)
                         {
-                            if(x!=currentPos.x && [self tileExistsAtPoint:ccp(currentPos.x, nextPos.y) inLayer:@"PathLayer"])
+                            if(x!=currentPos.x && [self tileExistsAtPoint:ccp(currentPos.x, nextPos.y) inLayer:layerName])
                                 continue;
                             
                             candidate = nextPos;
@@ -135,7 +135,7 @@
                         
                         if([dir isEqualToString:@"down"] && y>currentPos.y)
                         {
-                            if(x!=currentPos.x && [self tileExistsAtPoint:ccp(currentPos.x, nextPos.y) inLayer:@"PathLayer"])
+                            if(x!=currentPos.x && [self tileExistsAtPoint:ccp(currentPos.x, nextPos.y) inLayer:layerName])
                                 continue;
                             
                             candidate = nextPos;

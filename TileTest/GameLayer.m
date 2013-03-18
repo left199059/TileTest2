@@ -10,8 +10,12 @@ WalkingSprite* _hero;
 InputHelper* input;
 bool moved;
 CCRibbon* ribbon;
-int _enemyCount=5;
+int _enemyCount=15;
 int nextSpawnTime = 0;
+int spawnTimeContant = 20;
+int spawnTimeRnd = 80;
+
+
 
 -(void) dealloc
 {
@@ -32,9 +36,16 @@ int nextSpawnTime = 0;
     //add enemies
     _enemies = [[NSMutableArray alloc ] init];
    
+    //all paths layer names
+    NSMutableArray* paths = [NSMutableArray array];
+    [paths addObject: @"PathLayer"];
+    
     for(int i =0;i<_enemyCount;i++)
     {
-        PointPathNav* pathNav = [[PointPathNav alloc] initWithMap:self];
+        int index = rand()% [paths count];
+        NSString* pathLayer = [paths objectAtIndex:index];
+        
+        PointPathNav* pathNav = [[PointPathNav alloc] initWithMap:self  andLayer:pathLayer];
         
         AIWalkingSprite* _enemy = [AIWalkingSprite spriteWithFile:@"enemy.png" andNav:pathNav];
         [self addChild:_enemy];
@@ -97,7 +108,7 @@ int nextSpawnTime = 0;
     nextSpawnTime--;
     if(nextSpawnTime<=0)
     {
-        nextSpawnTime = 100;
+        nextSpawnTime = spawnTimeContant+rand()%spawnTimeRnd;
         [self spawnEnemy];
     }
     
