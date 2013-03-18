@@ -10,6 +10,10 @@
 
 @interface AIWalkingSprite : WalkingSprite
 
+-(id) initWithFile:(NSString *)filename andNav:(PathNav*) pathNav;
+
++(id) spriteWithFile:(NSString *)filename andNav:(PathNav*) pathNav;
+
 -(void) start;
 
 @end

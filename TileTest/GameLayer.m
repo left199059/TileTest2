@@ -34,7 +34,9 @@ int nextSpawnTime = 0;
    
     for(int i =0;i<_enemyCount;i++)
     {
-        AIWalkingSprite* _enemy = [AIWalkingSprite spriteWithFile:@"enemy.png"];
+        PointPathNav* pathNav = [[PointPathNav alloc] initWithMap:self];
+        
+        AIWalkingSprite* _enemy = [AIWalkingSprite spriteWithFile:@"enemy.png" andNav:pathNav];
         [self addChild:_enemy];
         [_enemies addObject:_enemy];
         

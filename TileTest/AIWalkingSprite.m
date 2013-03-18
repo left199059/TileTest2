@@ -11,26 +11,30 @@
 @implementation AIWalkingSprite
 
 
-PathNav* pathNav;
-MapLayer* _map;
+PathNav* _pathNav;
 
--(id) initWithFile:(NSString *)filename
+
+-(id) initWithFile:(NSString *)filename andNav:(PathNav*) pathNav
 {
 	self = [super initWithFile:filename];
     if(self==nil)
         return nil;
+
+    _pathNav = pathNav;
     
-    _map = (MapLayer*)self.parent;
-    pathNav = [[PointPathNav alloc] initWithMap:_map];
-    
-    CGPoint next = [pathNav getNext:self.position];
     
     return self;
 }
 
+
++(id) spriteWithFile:(NSString *)filename andNav:(PathNav*) pathNav
+{
+    return [[[self alloc] initWithFile:filename andNav:pathNav]autorelease];
+}
+
 -(void)dealloc
 {
-    [pathNav dealloc];
+    [_pathNav dealloc];
      [super dealloc];
 }
 
@@ -46,7 +50,7 @@ MapLayer* _map;
 
 -(void) onArrived
 {
-    CGPoint next = [pathNav getNext:self.position];
+    CGPoint next = [_pathNav getNext:self.position];
     //ADD SOME COMMENTsss ssseee
     if(next.x==-1)
     {

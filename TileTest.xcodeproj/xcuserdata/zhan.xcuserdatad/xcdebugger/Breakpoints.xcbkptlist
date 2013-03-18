@@ -21,11 +21,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "TileTest/GameLayer.m"
-         timestampString = "385273007.795756"
+         timestampString = "385305019.843203"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "154"
-         endingLineNumber = "154"
+         startingLineNumber = "156"
+         endingLineNumber = "156"
          landmarkName = "-ccTouchesBegan:withEvent:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -34,11 +34,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "TileTest/GameLayer.m"
-         timestampString = "385273007.795756"
+         timestampString = "385305019.843203"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "157"
-         endingLineNumber = "157"
+         startingLineNumber = "159"
+         endingLineNumber = "159"
          landmarkName = "-ccTouchesBegan:withEvent:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -73,11 +73,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "TileTest/GameLayer.m"
-         timestampString = "385273007.795756"
+         timestampString = "385305019.843203"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "54"
-         endingLineNumber = "54"
+         startingLineNumber = "56"
+         endingLineNumber = "56"
          landmarkName = "-init"
          landmarkType = "5">
       </FileBreakpoint>
@@ -281,11 +281,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "TileTest/GameLayer.m"
-         timestampString = "385143489.054992"
+         timestampString = "385305019.843203"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "52"
-         endingLineNumber = "52"
+         startingLineNumber = "54"
+         endingLineNumber = "54"
          landmarkName = "-init"
          landmarkType = "5">
       </FileBreakpoint>
@@ -294,11 +294,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "TileTest/GameLayer.m"
-         timestampString = "385273007.795756"
+         timestampString = "385305019.843203"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "63"
-         endingLineNumber = "63"
+         startingLineNumber = "65"
+         endingLineNumber = "65"
          landmarkName = "-spawnEnemy"
          landmarkType = "5">
       </FileBreakpoint>
@@ -307,11 +307,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "TileTest/GameLayer.m"
-         timestampString = "385273007.795756"
+         timestampString = "385305019.843203"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "97"
-         endingLineNumber = "97"
+         startingLineNumber = "99"
+         endingLineNumber = "99"
          landmarkName = "-update:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -320,11 +320,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "TileTest/AIWalkingSprite.m"
-         timestampString = "385274001.937822"
+         timestampString = "385305019.843203"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "49"
-         endingLineNumber = "49"
+         startingLineNumber = "53"
+         endingLineNumber = "53"
          landmarkName = "-onArrived"
          landmarkType = "5">
       </FileBreakpoint>
@@ -359,12 +359,12 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "TileTest/AIWalkingSprite.m"
-         timestampString = "385274189.106747"
+         timestampString = "385305019.843203"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "26"
-         endingLineNumber = "26"
-         landmarkName = "-initWithFile:"
+         startingLineNumber = "23"
+         endingLineNumber = "23"
+         landmarkName = "-initWithFile:andNav:"
          landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>
