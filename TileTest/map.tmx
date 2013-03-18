@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="62" height="46" tilewidth="10" tileheight="10">
+ <tileset firstgid="1" name="grounds" tilewidth="10" tileheight="10">
+  <image source="grounds.png" width="128" height="128"/>
+  <tile id="43">
+   <properties>
+    <property name="isPath" value="1"/>
+   </properties>
+  </tile>
+  <tile id="49">
+   <properties>
+    <property name="dir" value="up"/>
+   </properties>
+  </tile>
+  <tile id="60">
+   <properties>
+    <property name="dir" value="left"/>
+   </properties>
+  </tile>
+  <tile id="62">
+   <properties>
+    <property name="dir" value="right"/>
+   </properties>
+  </tile>
+  <tile id="73">
+   <properties>
+    <property name="dir" value="down"/>
+   </properties>
+  </tile>
+  <tile id="84">
+   <properties>
+    <property name="dir" value="right"/>
+   </properties>
+  </tile>
+  <tile id="139">
+   <properties>
+    <property name="isHeroPath" value="1"/>
+   </properties>
+  </tile>
+ </tileset>
+ <imagelayer name="Image Layer 1" width="62" height="46">
+  <image source="map.png"/>
+ </imagelayer>
+ <layer name="HeroPathLayer" width="62" height="46" opacity="0.95">
+  <data encoding="base64" compression="zlib">
+   eJzt1UEOgCAMRFHuHw9t3BEXBqHTGei8xLX9VbQ1MzMzszlX4KUosk99J+zW7H52G6MbPY9i9w7vWeZ9T1ax+THbrXJGZ/2Zc5dv9CjUv0d9D+xe5i4Qs+3SnzWPWvfMXFn3ysJ6HuzukVmUZkRinsvIb+TKXNn90d2rs53QvTInuj2rG/EOsKF3oNrdi94B8oyjqJ0XhorNvYrNb9V6v1RqNTMzMxtxA1+Nckw=
+  </data>
+ </layer>
+ <layer name="PathLayer" width="62" height="46" opacity="0.99">
+  <data encoding="base64" compression="zlib">
+   eJzt2DEOgCAMBVDO5G68/63cTYwyQMX/3ggDpe1AaQ0AAO4dnetPe181MuYv5aM6lurz+betOgCYJL3X9+oAKKcHsql/LrWfp3dumzHnrVD/kXlIf/+lWbXe/nx40wMpfZJyTwAAuDoBOQoFbA==
+  </data>
+ </layer>
+ <layer name="PathLayer2" width="62" height="46">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20Hb6AAAAAAAAAAAAAAAD4DLJAAAQ==
+  </data>
+ </layer>
+</map>

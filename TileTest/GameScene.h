@@ -1,0 +1,8 @@
+
+@interface GameScene : CCScene {
+    
+}
+
+
+
+@end
