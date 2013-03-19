@@ -22,16 +22,18 @@ PathNav* _pathNav;
 
     _pathNav = pathNav;
     
-    [self startAnimation:@"ZombieMove" frameCount:5 delay:0.15];
-    
+
     return self;
 }
+
 
 
 +(id) spriteWithFile:(NSString *)filename andNav:(PathNav*) pathNav
 {
     return [[[self alloc] initWithFile:filename andNav:pathNav]autorelease];
 }
+
+
 
 -(void)dealloc
 {

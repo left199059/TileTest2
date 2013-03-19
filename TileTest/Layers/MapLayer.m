@@ -107,10 +107,11 @@
                 {
                     CGPoint candidate = CGPointMake(-1, -1);
                     
-                    if(dir==nil)
+                    if(dir==nil) //no direction preferences
                         candidate = nextPos;
                     else
                     {
+                        //prefer to left
                         if([dir isEqualToString:@"left"] && x<currentPos.x)
                         {
                             if(y!=currentPos.y && [self tileExistsAtPoint:ccp(nextPos.x, currentPos.y) inLayer:layerName])

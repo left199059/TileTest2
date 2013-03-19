@@ -11,7 +11,7 @@
 @implementation CCAnimation (Helper)
 
 // Creates an animation from single files.
-+(CCAnimation*) animationWithFile:(NSString*)name frameCount:(int)frameCount delay:(float)delay
++(CCAnimation*) animationWithFile:(NSString*)name frameCount:(int)frameCount delay:(float)delay reverse:(bool)reverse
 {
 	// load the animation frames as textures and create the sprite frames
 	NSMutableArray* frames = [NSMutableArray arrayWithCapacity:frameCount];
@@ -23,7 +23,7 @@
 		// Assuming all animation files are named "nameX.png" with X being a consecutive number starting with 0.
         
         int index = (i +rndStart)%frameCount;
-        
+        CCLOG(@"%i",index);
 		NSString* file = [NSString stringWithFormat:@"%@%i.png", name, index];
 		CCTexture2D* texture = [[CCTextureCache sharedTextureCache] addImage:file];
 
@@ -34,7 +34,8 @@
 		
 		[frames addObject:frame];
 	}
-
+    
+   
 	// create an animation object from all the sprite animation frames
 	return [CCAnimation animationWithFrames:frames delay:delay];
 }

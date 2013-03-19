@@ -11,7 +11,9 @@
 
 @interface CCAnimation (Helper)
 
-+(CCAnimation*) animationWithFile:(NSString*)name frameCount:(int)frameCount delay:(float)delay;
++(CCAnimation*) animationWithFile:(NSString*)name frameCount:(int)frameCount delay:(float)delay reverse:(bool)reverse;
+
+
 +(CCAnimation*) animationWithFrame:(NSString*)frame frameCount:(int)frameCount delay:(float)delay;
 
 @end

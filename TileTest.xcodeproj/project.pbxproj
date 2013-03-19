@@ -38,11 +38,26 @@
 		7F6103A216F7F788008B7D2E /* TransitionScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F61039B16F7F788008B7D2E /* TransitionScene.m */; };
 		7F6103A316F7F788008B7D2E /* UILayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F61039D16F7F788008B7D2E /* UILayer.m */; };
 		7F6103B016F7F7AF008B7D2E /* AIWalkingSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6103A516F7F7AF008B7D2E /* AIWalkingSprite.m */; };
-		7F6103B116F7F7AF008B7D2E /* AnimationSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6103A716F7F7AF008B7D2E /* AnimationSprite.m */; };
 		7F6103B216F7F7AF008B7D2E /* DragableSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6103A916F7F7AF008B7D2E /* DragableSprite.m */; };
 		7F6103B316F7F7AF008B7D2E /* TouchableSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6103AB16F7F7AF008B7D2E /* TouchableSprite.m */; };
 		7F6103B416F7F7AF008B7D2E /* TowerSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6103AD16F7F7AF008B7D2E /* TowerSprite.m */; };
 		7F6103B516F7F7AF008B7D2E /* WalkingSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6103AF16F7F7AF008B7D2E /* WalkingSprite.m */; };
+		7F6103BB16F85BE1008B7D2E /* HeroArcherMove0.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F6103B616F85BE1008B7D2E /* HeroArcherMove0.png */; };
+		7F6103BC16F85BE1008B7D2E /* HeroArcherMove1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F6103B716F85BE1008B7D2E /* HeroArcherMove1.png */; };
+		7F6103BD16F85BE1008B7D2E /* HeroArcherMove2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F6103B816F85BE1008B7D2E /* HeroArcherMove2.png */; };
+		7F6103BE16F85BE1008B7D2E /* HeroArcherMove3.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F6103B916F85BE1008B7D2E /* HeroArcherMove3.png */; };
+		7F6103BF16F85BE1008B7D2E /* HeroArcherMove4.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F6103BA16F85BE1008B7D2E /* HeroArcherMove4.png */; };
+		7F6103C216F86F4F008B7D2E /* CCSpriteHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6103C116F86F4F008B7D2E /* CCSpriteHelper.m */; };
+		7F6103CD16F87B0C008B7D2E /* HeroArcherAttackwithArrow0.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F6103C316F87B0B008B7D2E /* HeroArcherAttackwithArrow0.png */; };
+		7F6103CE16F87B0C008B7D2E /* HeroArcherAttackwithArrow1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F6103C416F87B0B008B7D2E /* HeroArcherAttackwithArrow1.png */; };
+		7F6103CF16F87B0C008B7D2E /* HeroArcherAttackwithArrow2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F6103C516F87B0C008B7D2E /* HeroArcherAttackwithArrow2.png */; };
+		7F6103D016F87B0C008B7D2E /* HeroArcherAttackwithArrow3.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F6103C616F87B0C008B7D2E /* HeroArcherAttackwithArrow3.png */; };
+		7F6103D116F87B0C008B7D2E /* HeroArcherMove5.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F6103C716F87B0C008B7D2E /* HeroArcherMove5.png */; };
+		7F6103D216F87B0C008B7D2E /* HeroArcherMove6.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F6103C816F87B0C008B7D2E /* HeroArcherMove6.png */; };
+		7F6103D316F87B0C008B7D2E /* HeroArcherMove7.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F6103C916F87B0C008B7D2E /* HeroArcherMove7.png */; };
+		7F6103D416F87B0C008B7D2E /* ZombieMove5.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F6103CA16F87B0C008B7D2E /* ZombieMove5.png */; };
+		7F6103D516F87B0C008B7D2E /* ZombieMove6.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F6103CB16F87B0C008B7D2E /* ZombieMove6.png */; };
+		7F6103D616F87B0C008B7D2E /* ZombieMove7.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F6103CC16F87B0C008B7D2E /* ZombieMove7.png */; };
 		7FC8303416EEC3D3006C1A84 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FC8303316EEC3D3006C1A84 /* QuartzCore.framework */; };
 		7FC8303616EEC3D3006C1A84 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FC8303516EEC3D3006C1A84 /* OpenGLES.framework */; };
 		7FC8303816EEC3D3006C1A84 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FC8303716EEC3D3006C1A84 /* OpenAL.framework */; };
@@ -203,8 +218,6 @@
 		7F61039D16F7F788008B7D2E /* UILayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UILayer.m; path = Layers/UILayer.m; sourceTree = "<group>"; };
 		7F6103A416F7F7AF008B7D2E /* AIWalkingSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AIWalkingSprite.h; path = Sprites/AIWalkingSprite.h; sourceTree = "<group>"; };
 		7F6103A516F7F7AF008B7D2E /* AIWalkingSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AIWalkingSprite.m; path = Sprites/AIWalkingSprite.m; sourceTree = "<group>"; };
-		7F6103A616F7F7AF008B7D2E /* AnimationSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AnimationSprite.h; path = Sprites/AnimationSprite.h; sourceTree = "<group>"; };
-		7F6103A716F7F7AF008B7D2E /* AnimationSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AnimationSprite.m; path = Sprites/AnimationSprite.m; sourceTree = "<group>"; };
 		7F6103A816F7F7AF008B7D2E /* DragableSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DragableSprite.h; path = Sprites/DragableSprite.h; sourceTree = "<group>"; };
 		7F6103A916F7F7AF008B7D2E /* DragableSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DragableSprite.m; path = Sprites/DragableSprite.m; sourceTree = "<group>"; };
 		7F6103AA16F7F7AF008B7D2E /* TouchableSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TouchableSprite.h; path = Sprites/TouchableSprite.h; sourceTree = "<group>"; };
@@ -213,6 +226,23 @@
 		7F6103AD16F7F7AF008B7D2E /* TowerSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TowerSprite.m; path = Sprites/TowerSprite.m; sourceTree = "<group>"; };
 		7F6103AE16F7F7AF008B7D2E /* WalkingSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WalkingSprite.h; path = Sprites/WalkingSprite.h; sourceTree = "<group>"; };
 		7F6103AF16F7F7AF008B7D2E /* WalkingSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WalkingSprite.m; path = Sprites/WalkingSprite.m; sourceTree = "<group>"; };
+		7F6103B616F85BE1008B7D2E /* HeroArcherMove0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HeroArcherMove0.png; path = Resources/HeroArcherMove0.png; sourceTree = "<group>"; };
+		7F6103B716F85BE1008B7D2E /* HeroArcherMove1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HeroArcherMove1.png; path = Resources/HeroArcherMove1.png; sourceTree = "<group>"; };
+		7F6103B816F85BE1008B7D2E /* HeroArcherMove2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HeroArcherMove2.png; path = Resources/HeroArcherMove2.png; sourceTree = "<group>"; };
+		7F6103B916F85BE1008B7D2E /* HeroArcherMove3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HeroArcherMove3.png; path = Resources/HeroArcherMove3.png; sourceTree = "<group>"; };
+		7F6103BA16F85BE1008B7D2E /* HeroArcherMove4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HeroArcherMove4.png; path = Resources/HeroArcherMove4.png; sourceTree = "<group>"; };
+		7F6103C016F86F4F008B7D2E /* CCSpriteHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCSpriteHelper.h; path = Helpers/CCSpriteHelper.h; sourceTree = "<group>"; };
+		7F6103C116F86F4F008B7D2E /* CCSpriteHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCSpriteHelper.m; path = Helpers/CCSpriteHelper.m; sourceTree = "<group>"; };
+		7F6103C316F87B0B008B7D2E /* HeroArcherAttackwithArrow0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HeroArcherAttackwithArrow0.png; path = Resources/HeroArcherAttackwithArrow0.png; sourceTree = "<group>"; };
+		7F6103C416F87B0B008B7D2E /* HeroArcherAttackwithArrow1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HeroArcherAttackwithArrow1.png; path = Resources/HeroArcherAttackwithArrow1.png; sourceTree = "<group>"; };
+		7F6103C516F87B0C008B7D2E /* HeroArcherAttackwithArrow2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HeroArcherAttackwithArrow2.png; path = Resources/HeroArcherAttackwithArrow2.png; sourceTree = "<group>"; };
+		7F6103C616F87B0C008B7D2E /* HeroArcherAttackwithArrow3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HeroArcherAttackwithArrow3.png; path = Resources/HeroArcherAttackwithArrow3.png; sourceTree = "<group>"; };
+		7F6103C716F87B0C008B7D2E /* HeroArcherMove5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HeroArcherMove5.png; path = Resources/HeroArcherMove5.png; sourceTree = "<group>"; };
+		7F6103C816F87B0C008B7D2E /* HeroArcherMove6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HeroArcherMove6.png; path = Resources/HeroArcherMove6.png; sourceTree = "<group>"; };
+		7F6103C916F87B0C008B7D2E /* HeroArcherMove7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HeroArcherMove7.png; path = Resources/HeroArcherMove7.png; sourceTree = "<group>"; };
+		7F6103CA16F87B0C008B7D2E /* ZombieMove5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ZombieMove5.png; path = Resources/ZombieMove5.png; sourceTree = "<group>"; };
+		7F6103CB16F87B0C008B7D2E /* ZombieMove6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ZombieMove6.png; path = Resources/ZombieMove6.png; sourceTree = "<group>"; };
+		7F6103CC16F87B0C008B7D2E /* ZombieMove7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ZombieMove7.png; path = Resources/ZombieMove7.png; sourceTree = "<group>"; };
 		7FC8303016EEC3D3006C1A84 /* TileTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TileTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FC8303316EEC3D3006C1A84 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		7FC8303516EEC3D3006C1A84 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -480,6 +510,8 @@
 				7F61038D16F7F736008B7D2E /* PointPathNav.m */,
 				7F61038316F7F6DF008B7D2E /* GameHelper.h */,
 				7F61038416F7F6DF008B7D2E /* GameHelper.m */,
+				7F6103C016F86F4F008B7D2E /* CCSpriteHelper.h */,
+				7F6103C116F86F4F008B7D2E /* CCSpriteHelper.m */,
 			);
 			name = Helpers;
 			sourceTree = "<group>";
@@ -489,8 +521,6 @@
 			children = (
 				7F6103A416F7F7AF008B7D2E /* AIWalkingSprite.h */,
 				7F6103A516F7F7AF008B7D2E /* AIWalkingSprite.m */,
-				7F6103A616F7F7AF008B7D2E /* AnimationSprite.h */,
-				7F6103A716F7F7AF008B7D2E /* AnimationSprite.m */,
 				7F6103A816F7F7AF008B7D2E /* DragableSprite.h */,
 				7F6103A916F7F7AF008B7D2E /* DragableSprite.m */,
 				7F6103AA16F7F7AF008B7D2E /* TouchableSprite.h */,
@@ -556,6 +586,21 @@
 		7FC8304416EEC3D3006C1A84 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				7F6103C316F87B0B008B7D2E /* HeroArcherAttackwithArrow0.png */,
+				7F6103C416F87B0B008B7D2E /* HeroArcherAttackwithArrow1.png */,
+				7F6103C516F87B0C008B7D2E /* HeroArcherAttackwithArrow2.png */,
+				7F6103C616F87B0C008B7D2E /* HeroArcherAttackwithArrow3.png */,
+				7F6103C716F87B0C008B7D2E /* HeroArcherMove5.png */,
+				7F6103C816F87B0C008B7D2E /* HeroArcherMove6.png */,
+				7F6103C916F87B0C008B7D2E /* HeroArcherMove7.png */,
+				7F6103CA16F87B0C008B7D2E /* ZombieMove5.png */,
+				7F6103CB16F87B0C008B7D2E /* ZombieMove6.png */,
+				7F6103CC16F87B0C008B7D2E /* ZombieMove7.png */,
+				7F6103B616F85BE1008B7D2E /* HeroArcherMove0.png */,
+				7F6103B716F85BE1008B7D2E /* HeroArcherMove1.png */,
+				7F6103B816F85BE1008B7D2E /* HeroArcherMove2.png */,
+				7F6103B916F85BE1008B7D2E /* HeroArcherMove3.png */,
+				7F6103BA16F85BE1008B7D2E /* HeroArcherMove4.png */,
 				7F61035716F7F4F9008B7D2E /* 1.png */,
 				7F61035816F7F4F9008B7D2E /* bitmapfont.fnt */,
 				7F61035916F7F4F9008B7D2E /* bitmapfont.png */,
@@ -998,6 +1043,21 @@
 				7F61037A16F7F4F9008B7D2E /* ZombieMove4.png in Resources */,
 				7F61037B16F7F4F9008B7D2E /* ZombieMoveMap1.png in Resources */,
 				7F61037C16F7F4F9008B7D2E /* ZombieMoveMapwithPath.tmx in Resources */,
+				7F6103BB16F85BE1008B7D2E /* HeroArcherMove0.png in Resources */,
+				7F6103BC16F85BE1008B7D2E /* HeroArcherMove1.png in Resources */,
+				7F6103BD16F85BE1008B7D2E /* HeroArcherMove2.png in Resources */,
+				7F6103BE16F85BE1008B7D2E /* HeroArcherMove3.png in Resources */,
+				7F6103BF16F85BE1008B7D2E /* HeroArcherMove4.png in Resources */,
+				7F6103CD16F87B0C008B7D2E /* HeroArcherAttackwithArrow0.png in Resources */,
+				7F6103CE16F87B0C008B7D2E /* HeroArcherAttackwithArrow1.png in Resources */,
+				7F6103CF16F87B0C008B7D2E /* HeroArcherAttackwithArrow2.png in Resources */,
+				7F6103D016F87B0C008B7D2E /* HeroArcherAttackwithArrow3.png in Resources */,
+				7F6103D116F87B0C008B7D2E /* HeroArcherMove5.png in Resources */,
+				7F6103D216F87B0C008B7D2E /* HeroArcherMove6.png in Resources */,
+				7F6103D316F87B0C008B7D2E /* HeroArcherMove7.png in Resources */,
+				7F6103D416F87B0C008B7D2E /* ZombieMove5.png in Resources */,
+				7F6103D516F87B0C008B7D2E /* ZombieMove6.png in Resources */,
+				7F6103D616F87B0C008B7D2E /* ZombieMove7.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1117,11 +1177,11 @@
 				7F6103A216F7F788008B7D2E /* TransitionScene.m in Sources */,
 				7F6103A316F7F788008B7D2E /* UILayer.m in Sources */,
 				7F6103B016F7F7AF008B7D2E /* AIWalkingSprite.m in Sources */,
-				7F6103B116F7F7AF008B7D2E /* AnimationSprite.m in Sources */,
 				7F6103B216F7F7AF008B7D2E /* DragableSprite.m in Sources */,
 				7F6103B316F7F7AF008B7D2E /* TouchableSprite.m in Sources */,
 				7F6103B416F7F7AF008B7D2E /* TowerSprite.m in Sources */,
 				7F6103B516F7F7AF008B7D2E /* WalkingSprite.m in Sources */,
+				7F6103C216F86F4F008B7D2E /* CCSpriteHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

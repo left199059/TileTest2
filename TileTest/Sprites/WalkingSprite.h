@@ -8,7 +8,7 @@
 
 #import "CCSprite.h"
 
-@interface WalkingSprite : AnimationSprite
+@interface WalkingSprite : CCSprite
 
 {
     @public

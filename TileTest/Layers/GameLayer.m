@@ -10,10 +10,10 @@ WalkingSprite* _hero;
 InputHelper* input;
 bool moved;
 CCRibbon* ribbon;
-int _enemyCount=15;
+int _enemyCount=1;
 int nextSpawnTime = 0;
-int spawnTimeContant = 20;
-int spawnTimeRnd = 80;
+int spawnTimeContant = 80;
+int spawnTimeRnd = 100;
 
 
 
@@ -45,7 +45,7 @@ int spawnTimeRnd = 80;
 //        [paths addObject: name];
 //    }
     [paths addObject: @"PATH8"];
-    [paths addObject: @"PATH2"];
+    //[paths addObject: @"PATH2"];
 //    [paths addObject: @"PATH3"];
 //    [paths addObject: @"PATH4"];
 //    [paths addObject: @"PATH5"];
@@ -60,8 +60,11 @@ int spawnTimeRnd = 80;
         
         PointPathNav* pathNav = [[PointPathNav alloc] initWithMap:self  andLayer:pathLayer];
         
-        AIWalkingSprite* _enemy = [AIWalkingSprite spriteWithFile:@"enemy.png" andNav:pathNav];
+        AIWalkingSprite* _enemy = [AIWalkingSprite spriteWithFile:@"HeroArcherMove0.png" andNav:pathNav];
         
+        [_enemy startAnimationRepeat:@"HeroArcherMove"  frameCount:8 delay:0.15];
+        
+       
         [self addChild:_enemy];
         [_enemies addObject:_enemy];
         
