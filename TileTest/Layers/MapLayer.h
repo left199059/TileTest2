@@ -10,8 +10,9 @@
 
 @interface MapLayer : CCLayer
 {
+@public
+    CGSize mapPixcelSize;
     CGSize mapSize;
-    
     CCTMXTiledMap* _tileMap;
     
 }
@@ -27,8 +28,6 @@
 -(CGPoint) tilePosFromLocation:(CGPoint)location;
 
 -(CGPoint) locationFromTilePos:(CGPoint) pos;
-
--(CGPoint) getNextPointOnPathWithCurrent:(CGPoint)currentPos AndPrevious:(CGPoint) prevPos;
 
 
 -(CGPoint) getNextPoint2OnPathWithCurrent:(CGPoint)currentPos AndPrevious:(CGPoint) prevPos andLayer:(NSString *) layerName;

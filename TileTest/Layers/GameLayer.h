@@ -12,7 +12,7 @@
 
 -(CGPoint) locationFromTilePos:(CGPoint) pos;
 
--(CGRect) getMapSize;
+-(CGRect) getMapPixcelSize;
 
 
 -(void) spawnEnemy;

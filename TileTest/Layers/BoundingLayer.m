@@ -29,7 +29,7 @@
 	return self;
 }
 
--(void) setBound:(CGRect)bound
+-(void) setBound:(CGSize)bound
 {
     movingBound = bound;
 }
@@ -57,19 +57,19 @@
     if(abs(speed.y)<1)
         speed.y =0;
     
-    if(pos.x > movingBound.origin.x)
-        pos.x = movingBound.origin.x;
-    if(pos.y > movingBound.origin.y)
-        pos.y = movingBound.origin.y;
+    if(pos.x > 0)
+        pos.x =0;
+    if(pos.y > 0)
+        pos.y = 0;
     
-    float xLim = -( movingBound.origin.x + movingBound.size.width - screenSize.width);
+    float xLim = -( movingBound.width - screenSize.width);
     if(pos.x < xLim && xLim <=0)
     {
         pos.x = MIN(xLim,0);
     }
         
     
-    float yLim = -(movingBound.origin.y + movingBound.size.height- screenSize.height);
+    float yLim = -( movingBound.height- screenSize.height);
     
     if(pos.y < yLim)
     {

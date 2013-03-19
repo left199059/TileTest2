@@ -1,4 +1,6 @@
 
+
+
 @implementation GameLayer
 
 
@@ -13,7 +15,7 @@ CCRibbon* ribbon;
 int _enemyCount=1;
 int nextSpawnTime = 0;
 int spawnTimeContant = 80;
-int spawnTimeRnd = 100;
+int spawnTimeRnd = 300;
 
 
 
@@ -44,7 +46,7 @@ int spawnTimeRnd = 100;
 //        NSString* name = [NSString stringWithFormat:@"PATH%i",i];
 //        [paths addObject: name];
 //    }
-    [paths addObject: @"PATH8"];
+    [paths addObject: @"PATH1"];
     //[paths addObject: @"PATH2"];
 //    [paths addObject: @"PATH3"];
 //    [paths addObject: @"PATH4"];
@@ -52,6 +54,8 @@ int spawnTimeRnd = 100;
 //    [paths addObject: @"PATH6"];
 //    [paths addObject: @"PATH7"];
 //    [paths addObject: @"PATH8"];
+    
+    
     
     for(int i =0;i<_enemyCount;i++)
     {
@@ -62,7 +66,7 @@ int spawnTimeRnd = 100;
         
         AIWalkingSprite* _enemy = [AIWalkingSprite spriteWithFile:@"HeroArcherMove0.png" andNav:pathNav];
         
-        [_enemy startAnimationRepeat:@"HeroArcherMove"  frameCount:8 delay:0.15];
+        [_enemy startAnimationRepeat:@"ZombieMove"  frameCount:6 delay:0.15];
         
        
         [self addChild:_enemy];
@@ -70,7 +74,7 @@ int spawnTimeRnd = 100;
         
         _enemy.visible = false;
      
-        _enemy->speed = 0.05f;
+        _enemy->speed = 0.01f;
 
     }
     
@@ -109,16 +113,6 @@ int spawnTimeRnd = 100;
     }
 }
 
-
-
--(CGRect) getMapSize
-{
-    CGRect rect;
-    
-    rect.size = mapSize;
-    
-    return rect;
-}
 
 -(void) update:(ccTime) delta
 {

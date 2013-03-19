@@ -56,8 +56,6 @@
 		7F6103D216F87B0C008B7D2E /* HeroArcherMove6.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F6103C816F87B0C008B7D2E /* HeroArcherMove6.png */; };
 		7F6103D316F87B0C008B7D2E /* HeroArcherMove7.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F6103C916F87B0C008B7D2E /* HeroArcherMove7.png */; };
 		7F6103D416F87B0C008B7D2E /* ZombieMove5.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F6103CA16F87B0C008B7D2E /* ZombieMove5.png */; };
-		7F6103D516F87B0C008B7D2E /* ZombieMove6.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F6103CB16F87B0C008B7D2E /* ZombieMove6.png */; };
-		7F6103D616F87B0C008B7D2E /* ZombieMove7.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F6103CC16F87B0C008B7D2E /* ZombieMove7.png */; };
 		7FC8303416EEC3D3006C1A84 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FC8303316EEC3D3006C1A84 /* QuartzCore.framework */; };
 		7FC8303616EEC3D3006C1A84 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FC8303516EEC3D3006C1A84 /* OpenGLES.framework */; };
 		7FC8303816EEC3D3006C1A84 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FC8303716EEC3D3006C1A84 /* OpenAL.framework */; };
@@ -241,8 +239,6 @@
 		7F6103C816F87B0C008B7D2E /* HeroArcherMove6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HeroArcherMove6.png; path = Resources/HeroArcherMove6.png; sourceTree = "<group>"; };
 		7F6103C916F87B0C008B7D2E /* HeroArcherMove7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HeroArcherMove7.png; path = Resources/HeroArcherMove7.png; sourceTree = "<group>"; };
 		7F6103CA16F87B0C008B7D2E /* ZombieMove5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ZombieMove5.png; path = Resources/ZombieMove5.png; sourceTree = "<group>"; };
-		7F6103CB16F87B0C008B7D2E /* ZombieMove6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ZombieMove6.png; path = Resources/ZombieMove6.png; sourceTree = "<group>"; };
-		7F6103CC16F87B0C008B7D2E /* ZombieMove7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ZombieMove7.png; path = Resources/ZombieMove7.png; sourceTree = "<group>"; };
 		7FC8303016EEC3D3006C1A84 /* TileTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TileTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FC8303316EEC3D3006C1A84 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		7FC8303516EEC3D3006C1A84 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -594,8 +590,6 @@
 				7F6103C816F87B0C008B7D2E /* HeroArcherMove6.png */,
 				7F6103C916F87B0C008B7D2E /* HeroArcherMove7.png */,
 				7F6103CA16F87B0C008B7D2E /* ZombieMove5.png */,
-				7F6103CB16F87B0C008B7D2E /* ZombieMove6.png */,
-				7F6103CC16F87B0C008B7D2E /* ZombieMove7.png */,
 				7F6103B616F85BE1008B7D2E /* HeroArcherMove0.png */,
 				7F6103B716F85BE1008B7D2E /* HeroArcherMove1.png */,
 				7F6103B816F85BE1008B7D2E /* HeroArcherMove2.png */,
@@ -1056,8 +1050,6 @@
 				7F6103D216F87B0C008B7D2E /* HeroArcherMove6.png in Resources */,
 				7F6103D316F87B0C008B7D2E /* HeroArcherMove7.png in Resources */,
 				7F6103D416F87B0C008B7D2E /* ZombieMove5.png in Resources */,
-				7F6103D516F87B0C008B7D2E /* ZombieMove6.png in Resources */,
-				7F6103D616F87B0C008B7D2E /* ZombieMove7.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

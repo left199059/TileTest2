@@ -13,14 +13,14 @@
 @private
     
     CGPoint speed;
-    CGRect movingBound;
+    CGSize movingBound;
     CGSize screenSize;
     float friction ;
 }
 
 -(void) setScreenSize:(CGSize)size;
 
--(void) setBound:(CGRect)bound;
+-(void) setBound:(CGSize)bound;
 @end
 
 

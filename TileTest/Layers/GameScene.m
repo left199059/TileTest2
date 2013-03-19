@@ -23,7 +23,7 @@
     BoundingLayer *camera = [BoundingLayer node];
     
     
-    [camera setBound:[layer getMapSize]];
+    [camera setBound:layer->mapPixcelSize];
     [camera addChild:layer];
     UILayer *uiLayer = [UILayer node];
     
