@@ -17,5 +17,8 @@
 +(id) navWithMap:(MapLayer *)map andLayer:(NSString* ) layerName;
 
 
+-(CGPoint) getFirst;
+
+
 
 @end

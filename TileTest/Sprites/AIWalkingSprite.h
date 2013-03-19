@@ -9,7 +9,10 @@
 #import "CCSprite.h"
 
 @interface AIWalkingSprite : WalkingSprite
-
+{
+@public
+    PathNav* _pathNav;
+}
 
 +(id) spriteWithFile:(NSString *)filename andNav:(PathNav*) pathNav;
 

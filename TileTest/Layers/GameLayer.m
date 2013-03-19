@@ -103,8 +103,9 @@ int spawnTimeRnd = 300;
         if(enemy.visible)
             continue;
         
-        
-        CGPoint startPoint =  [self locationFromTilePos: ccp(87,1)];
+        PointPathNav* nav = (PointPathNav*) enemy->_pathNav;
+        CGPoint startPoint = [nav getFirst];
+        startPoint =  [self locationFromTilePos: startPoint];
         enemy.position = startPoint;
         [enemy start];
         enemy.visible = true;

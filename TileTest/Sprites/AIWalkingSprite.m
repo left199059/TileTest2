@@ -11,7 +11,7 @@
 @implementation AIWalkingSprite
 
 
-PathNav* _pathNav;
+
 
 
 -(id) initWithFile:(NSString *)filename andNav:(PathNav*) pathNav
