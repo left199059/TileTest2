@@ -7,30 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7F46144F16F4CDAB00BD7E0C /* AIWalkingSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F46144E16F4CDAB00BD7E0C /* AIWalkingSprite.m */; };
-		7F466F5916F5554800BD7E0C /* CCAnimationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F466F5816F5554800BD7E0C /* CCAnimationHelper.m */; };
-		7F466F5C16F5560000BD7E0C /* PathNav.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F466F5B16F5560000BD7E0C /* PathNav.m */; };
-		7F466F5F16F5567800BD7E0C /* PointPathNav.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F466F5E16F5567800BD7E0C /* PointPathNav.m */; };
-		7F4F689616F311A300C10FAB /* bitmapfont.fnt in Resources */ = {isa = PBXBuildFile; fileRef = 7F4F689416F311A300C10FAB /* bitmapfont.fnt */; };
-		7F4F689716F311A300C10FAB /* bitmapfont.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F4F689516F311A300C10FAB /* bitmapfont.png */; };
-		7F4F689A16F3667F00C10FAB /* TransitionScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4F689916F3667F00C10FAB /* TransitionScene.m */; };
-		7F61033416F75999008B7D2E /* ship-anim0.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F61032F16F75999008B7D2E /* ship-anim0.png */; };
-		7F61033516F75999008B7D2E /* ship-anim1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F61033016F75999008B7D2E /* ship-anim1.png */; };
-		7F61033616F75999008B7D2E /* ship-anim2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F61033116F75999008B7D2E /* ship-anim2.png */; };
-		7F61033716F75999008B7D2E /* ship-anim3.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F61033216F75999008B7D2E /* ship-anim3.png */; };
-		7F61033816F75999008B7D2E /* ship-anim4.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F61033316F75999008B7D2E /* ship-anim4.png */; };
-		7F61033B16F766FB008B7D2E /* AnimationSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F61033A16F766FB008B7D2E /* AnimationSprite.m */; };
-		7F61033D16F770BE008B7D2E /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F61033C16F770BE008B7D2E /* 1.png */; };
-		7F61034016F77120008B7D2E /* TowerSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F61033F16F77120008B7D2E /* TowerSprite.m */; };
-		7F61034316F773F5008B7D2E /* TouchableSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F61034216F773F4008B7D2E /* TouchableSprite.m */; };
-		7F61034616F77406008B7D2E /* DragableSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F61034516F77406008B7D2E /* DragableSprite.m */; };
-		7F61034E16F77FA8008B7D2E /* ZombieMove1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F61034716F77FA8008B7D2E /* ZombieMove1.png */; };
-		7F61034F16F77FA8008B7D2E /* ZombieMove2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F61034816F77FA8008B7D2E /* ZombieMove2.png */; };
-		7F61035016F77FA8008B7D2E /* ZombieMove3.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F61034916F77FA8008B7D2E /* ZombieMove3.png */; };
-		7F61035116F77FA8008B7D2E /* ZombieMove4.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F61034A16F77FA8008B7D2E /* ZombieMove4.png */; };
-		7F61035316F77FA8008B7D2E /* ZombieMoveMap1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F61034C16F77FA8008B7D2E /* ZombieMoveMap1.png */; };
-		7F61035416F77FA8008B7D2E /* ZombieMoveMapwithPath.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 7F61034D16F77FA8008B7D2E /* ZombieMoveMapwithPath.tmx */; };
-		7F61035616F78132008B7D2E /* ZombieMove0.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F61035516F78132008B7D2E /* ZombieMove0.png */; };
+		7F61036A16F7F4F9008B7D2E /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F61035716F7F4F9008B7D2E /* 1.png */; };
+		7F61036B16F7F4F9008B7D2E /* bitmapfont.fnt in Resources */ = {isa = PBXBuildFile; fileRef = 7F61035816F7F4F9008B7D2E /* bitmapfont.fnt */; };
+		7F61036C16F7F4F9008B7D2E /* bitmapfont.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F61035916F7F4F9008B7D2E /* bitmapfont.png */; };
+		7F61036D16F7F4F9008B7D2E /* enemy.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F61035A16F7F4F9008B7D2E /* enemy.png */; };
+		7F61036E16F7F4F9008B7D2E /* grounds.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F61035B16F7F4F9008B7D2E /* grounds.png */; };
+		7F61036F16F7F4F9008B7D2E /* map.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F61035C16F7F4F9008B7D2E /* map.jpg */; };
+		7F61037016F7F4F9008B7D2E /* map.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 7F61035D16F7F4F9008B7D2E /* map.tmx */; };
+		7F61037116F7F4F9008B7D2E /* ship-anim0.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F61035E16F7F4F9008B7D2E /* ship-anim0.png */; };
+		7F61037216F7F4F9008B7D2E /* ship-anim1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F61035F16F7F4F9008B7D2E /* ship-anim1.png */; };
+		7F61037316F7F4F9008B7D2E /* ship-anim2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F61036016F7F4F9008B7D2E /* ship-anim2.png */; };
+		7F61037416F7F4F9008B7D2E /* ship-anim3.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F61036116F7F4F9008B7D2E /* ship-anim3.png */; };
+		7F61037516F7F4F9008B7D2E /* ship-anim4.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F61036216F7F4F9008B7D2E /* ship-anim4.png */; };
+		7F61037616F7F4F9008B7D2E /* ZombieMove0.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F61036316F7F4F9008B7D2E /* ZombieMove0.png */; };
+		7F61037716F7F4F9008B7D2E /* ZombieMove1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F61036416F7F4F9008B7D2E /* ZombieMove1.png */; };
+		7F61037816F7F4F9008B7D2E /* ZombieMove2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F61036516F7F4F9008B7D2E /* ZombieMove2.png */; };
+		7F61037916F7F4F9008B7D2E /* ZombieMove3.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F61036616F7F4F9008B7D2E /* ZombieMove3.png */; };
+		7F61037A16F7F4F9008B7D2E /* ZombieMove4.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F61036716F7F4F9008B7D2E /* ZombieMove4.png */; };
+		7F61037B16F7F4F9008B7D2E /* ZombieMoveMap1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F61036816F7F4F9008B7D2E /* ZombieMoveMap1.png */; };
+		7F61037C16F7F4F9008B7D2E /* ZombieMoveMapwithPath.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 7F61036916F7F4F9008B7D2E /* ZombieMoveMapwithPath.tmx */; };
+		7F61038516F7F6DF008B7D2E /* GameHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F61038416F7F6DF008B7D2E /* GameHelper.m */; };
+		7F61038E16F7F736008B7D2E /* CCAnimationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F61038716F7F735008B7D2E /* CCAnimationHelper.m */; };
+		7F61038F16F7F736008B7D2E /* InputHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F61038916F7F735008B7D2E /* InputHelper.m */; };
+		7F61039016F7F736008B7D2E /* PathNav.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F61038B16F7F736008B7D2E /* PathNav.m */; };
+		7F61039116F7F736008B7D2E /* PointPathNav.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F61038D16F7F736008B7D2E /* PointPathNav.m */; };
+		7F61039E16F7F788008B7D2E /* BoundingLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F61039316F7F788008B7D2E /* BoundingLayer.m */; };
+		7F61039F16F7F788008B7D2E /* GameLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F61039516F7F788008B7D2E /* GameLayer.m */; };
+		7F6103A016F7F788008B7D2E /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F61039716F7F788008B7D2E /* GameScene.m */; };
+		7F6103A116F7F788008B7D2E /* MapLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F61039916F7F788008B7D2E /* MapLayer.m */; };
+		7F6103A216F7F788008B7D2E /* TransitionScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F61039B16F7F788008B7D2E /* TransitionScene.m */; };
+		7F6103A316F7F788008B7D2E /* UILayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F61039D16F7F788008B7D2E /* UILayer.m */; };
+		7F6103B016F7F7AF008B7D2E /* AIWalkingSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6103A516F7F7AF008B7D2E /* AIWalkingSprite.m */; };
+		7F6103B116F7F7AF008B7D2E /* AnimationSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6103A716F7F7AF008B7D2E /* AnimationSprite.m */; };
+		7F6103B216F7F7AF008B7D2E /* DragableSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6103A916F7F7AF008B7D2E /* DragableSprite.m */; };
+		7F6103B316F7F7AF008B7D2E /* TouchableSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6103AB16F7F7AF008B7D2E /* TouchableSprite.m */; };
+		7F6103B416F7F7AF008B7D2E /* TowerSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6103AD16F7F7AF008B7D2E /* TowerSprite.m */; };
+		7F6103B516F7F7AF008B7D2E /* WalkingSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6103AF16F7F7AF008B7D2E /* WalkingSprite.m */; };
 		7FC8303416EEC3D3006C1A84 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FC8303316EEC3D3006C1A84 /* QuartzCore.framework */; };
 		7FC8303616EEC3D3006C1A84 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FC8303516EEC3D3006C1A84 /* OpenGLES.framework */; };
 		7FC8303816EEC3D3006C1A84 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FC8303716EEC3D3006C1A84 /* OpenAL.framework */; };
@@ -145,53 +157,62 @@
 		7FC8319416EEC3D6006C1A84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC8319316EEC3D6006C1A84 /* main.m */; };
 		7FC8319716EEC3D6006C1A84 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC8319616EEC3D6006C1A84 /* AppDelegate.m */; };
 		7FC8319A16EEC3D6006C1A84 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC8319916EEC3D6006C1A84 /* RootViewController.m */; };
-		7FC8319D16EEC3D6006C1A84 /* GameLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC8319C16EEC3D6006C1A84 /* GameLayer.m */; };
-		7FC831A616EEC3F9006C1A84 /* grounds.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FC831A416EEC3F9006C1A84 /* grounds.png */; };
-		7FC831AF16EEF7A2006C1A84 /* map.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 7FC831AD16EEF7A2006C1A84 /* map.tmx */; };
-		7FC831B316EF0103006C1A84 /* enemy.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FC831B216EF0103006C1A84 /* enemy.png */; };
-		7FF3DD7D16F16F0D00250756 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF3DD7C16F16F0D00250756 /* GameScene.m */; };
-		7FF3DD8116F1712F00250756 /* UILayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF3DD8016F1712F00250756 /* UILayer.m */; };
-		7FF3DD8516F1AA7300250756 /* BoundingLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF3DD8416F1AA7300250756 /* BoundingLayer.m */; };
-		7FF3DD8816F1AB6200250756 /* GameHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF3DD8716F1AB6200250756 /* GameHelper.m */; };
-		7FF3DD8B16F2CC4200250756 /* MapLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF3DD8A16F2CC4200250756 /* MapLayer.m */; };
-		7FF3DD8E16F2E9A700250756 /* InputHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF3DD8D16F2E9A600250756 /* InputHelper.m */; };
-		7FFF4D2E16F45261001FEE45 /* WalkingSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFF4D2D16F45261001FEE45 /* WalkingSprite.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7F46144D16F4CDAB00BD7E0C /* AIWalkingSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIWalkingSprite.h; sourceTree = "<group>"; };
-		7F46144E16F4CDAB00BD7E0C /* AIWalkingSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIWalkingSprite.m; sourceTree = "<group>"; };
-		7F466F5716F5554800BD7E0C /* CCAnimationHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCAnimationHelper.h; sourceTree = "<group>"; };
-		7F466F5816F5554800BD7E0C /* CCAnimationHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCAnimationHelper.m; sourceTree = "<group>"; };
-		7F466F5A16F5560000BD7E0C /* PathNav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathNav.h; sourceTree = "<group>"; };
-		7F466F5B16F5560000BD7E0C /* PathNav.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PathNav.m; sourceTree = "<group>"; };
-		7F466F5D16F5567800BD7E0C /* PointPathNav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointPathNav.h; sourceTree = "<group>"; };
-		7F466F5E16F5567800BD7E0C /* PointPathNav.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointPathNav.m; sourceTree = "<group>"; };
-		7F4F689416F311A300C10FAB /* bitmapfont.fnt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bitmapfont.fnt; sourceTree = "<group>"; };
-		7F4F689516F311A300C10FAB /* bitmapfont.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bitmapfont.png; sourceTree = "<group>"; };
-		7F4F689816F3667F00C10FAB /* TransitionScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionScene.h; sourceTree = "<group>"; };
-		7F4F689916F3667F00C10FAB /* TransitionScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionScene.m; sourceTree = "<group>"; };
-		7F61032F16F75999008B7D2E /* ship-anim0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ship-anim0.png"; sourceTree = "<group>"; };
-		7F61033016F75999008B7D2E /* ship-anim1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ship-anim1.png"; sourceTree = "<group>"; };
-		7F61033116F75999008B7D2E /* ship-anim2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ship-anim2.png"; sourceTree = "<group>"; };
-		7F61033216F75999008B7D2E /* ship-anim3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ship-anim3.png"; sourceTree = "<group>"; };
-		7F61033316F75999008B7D2E /* ship-anim4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ship-anim4.png"; sourceTree = "<group>"; };
-		7F61033916F766FB008B7D2E /* AnimationSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationSprite.h; sourceTree = "<group>"; };
-		7F61033A16F766FB008B7D2E /* AnimationSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationSprite.m; sourceTree = "<group>"; };
-		7F61033C16F770BE008B7D2E /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1.png; path = Resources/1.png; sourceTree = "<group>"; };
-		7F61033E16F77120008B7D2E /* TowerSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TowerSprite.h; sourceTree = "<group>"; };
-		7F61033F16F77120008B7D2E /* TowerSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TowerSprite.m; sourceTree = "<group>"; };
-		7F61034116F773F4008B7D2E /* TouchableSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchableSprite.h; sourceTree = "<group>"; };
-		7F61034216F773F4008B7D2E /* TouchableSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchableSprite.m; sourceTree = "<group>"; };
-		7F61034416F77406008B7D2E /* DragableSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragableSprite.h; sourceTree = "<group>"; };
-		7F61034516F77406008B7D2E /* DragableSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragableSprite.m; sourceTree = "<group>"; };
-		7F61034716F77FA8008B7D2E /* ZombieMove1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ZombieMove1.png; path = Resources/ZombieMove1.png; sourceTree = "<group>"; };
-		7F61034816F77FA8008B7D2E /* ZombieMove2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ZombieMove2.png; path = Resources/ZombieMove2.png; sourceTree = "<group>"; };
-		7F61034916F77FA8008B7D2E /* ZombieMove3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ZombieMove3.png; path = Resources/ZombieMove3.png; sourceTree = "<group>"; };
-		7F61034A16F77FA8008B7D2E /* ZombieMove4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ZombieMove4.png; path = Resources/ZombieMove4.png; sourceTree = "<group>"; };
-		7F61034C16F77FA8008B7D2E /* ZombieMoveMap1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ZombieMoveMap1.png; path = Resources/ZombieMoveMap1.png; sourceTree = "<group>"; };
-		7F61034D16F77FA8008B7D2E /* ZombieMoveMapwithPath.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = ZombieMoveMapwithPath.tmx; path = Resources/ZombieMoveMapwithPath.tmx; sourceTree = "<group>"; };
-		7F61035516F78132008B7D2E /* ZombieMove0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ZombieMove0.png; path = Resources/ZombieMove0.png; sourceTree = "<group>"; };
+		7F61035716F7F4F9008B7D2E /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1.png; path = Resources/1.png; sourceTree = "<group>"; };
+		7F61035816F7F4F9008B7D2E /* bitmapfont.fnt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = bitmapfont.fnt; path = Resources/bitmapfont.fnt; sourceTree = "<group>"; };
+		7F61035916F7F4F9008B7D2E /* bitmapfont.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bitmapfont.png; path = Resources/bitmapfont.png; sourceTree = "<group>"; };
+		7F61035A16F7F4F9008B7D2E /* enemy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = enemy.png; path = Resources/enemy.png; sourceTree = "<group>"; };
+		7F61035B16F7F4F9008B7D2E /* grounds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grounds.png; path = Resources/grounds.png; sourceTree = "<group>"; };
+		7F61035C16F7F4F9008B7D2E /* map.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = map.jpg; path = Resources/map.jpg; sourceTree = "<group>"; };
+		7F61035D16F7F4F9008B7D2E /* map.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = map.tmx; path = Resources/map.tmx; sourceTree = "<group>"; };
+		7F61035E16F7F4F9008B7D2E /* ship-anim0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ship-anim0.png"; path = "Resources/ship-anim0.png"; sourceTree = "<group>"; };
+		7F61035F16F7F4F9008B7D2E /* ship-anim1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ship-anim1.png"; path = "Resources/ship-anim1.png"; sourceTree = "<group>"; };
+		7F61036016F7F4F9008B7D2E /* ship-anim2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ship-anim2.png"; path = "Resources/ship-anim2.png"; sourceTree = "<group>"; };
+		7F61036116F7F4F9008B7D2E /* ship-anim3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ship-anim3.png"; path = "Resources/ship-anim3.png"; sourceTree = "<group>"; };
+		7F61036216F7F4F9008B7D2E /* ship-anim4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ship-anim4.png"; path = "Resources/ship-anim4.png"; sourceTree = "<group>"; };
+		7F61036316F7F4F9008B7D2E /* ZombieMove0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ZombieMove0.png; path = Resources/ZombieMove0.png; sourceTree = "<group>"; };
+		7F61036416F7F4F9008B7D2E /* ZombieMove1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ZombieMove1.png; path = Resources/ZombieMove1.png; sourceTree = "<group>"; };
+		7F61036516F7F4F9008B7D2E /* ZombieMove2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ZombieMove2.png; path = Resources/ZombieMove2.png; sourceTree = "<group>"; };
+		7F61036616F7F4F9008B7D2E /* ZombieMove3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ZombieMove3.png; path = Resources/ZombieMove3.png; sourceTree = "<group>"; };
+		7F61036716F7F4F9008B7D2E /* ZombieMove4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ZombieMove4.png; path = Resources/ZombieMove4.png; sourceTree = "<group>"; };
+		7F61036816F7F4F9008B7D2E /* ZombieMoveMap1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ZombieMoveMap1.png; path = Resources/ZombieMoveMap1.png; sourceTree = "<group>"; };
+		7F61036916F7F4F9008B7D2E /* ZombieMoveMapwithPath.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = ZombieMoveMapwithPath.tmx; path = Resources/ZombieMoveMapwithPath.tmx; sourceTree = "<group>"; };
+		7F61038316F7F6DF008B7D2E /* GameHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameHelper.h; path = Helpers/GameHelper.h; sourceTree = "<group>"; };
+		7F61038416F7F6DF008B7D2E /* GameHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameHelper.m; path = Helpers/GameHelper.m; sourceTree = "<group>"; };
+		7F61038616F7F735008B7D2E /* CCAnimationHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCAnimationHelper.h; path = Helpers/CCAnimationHelper.h; sourceTree = "<group>"; };
+		7F61038716F7F735008B7D2E /* CCAnimationHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCAnimationHelper.m; path = Helpers/CCAnimationHelper.m; sourceTree = "<group>"; };
+		7F61038816F7F735008B7D2E /* InputHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InputHelper.h; path = Helpers/InputHelper.h; sourceTree = "<group>"; };
+		7F61038916F7F735008B7D2E /* InputHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InputHelper.m; path = Helpers/InputHelper.m; sourceTree = "<group>"; };
+		7F61038A16F7F735008B7D2E /* PathNav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PathNav.h; path = Helpers/PathNav.h; sourceTree = "<group>"; };
+		7F61038B16F7F736008B7D2E /* PathNav.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PathNav.m; path = Helpers/PathNav.m; sourceTree = "<group>"; };
+		7F61038C16F7F736008B7D2E /* PointPathNav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PointPathNav.h; path = Helpers/PointPathNav.h; sourceTree = "<group>"; };
+		7F61038D16F7F736008B7D2E /* PointPathNav.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PointPathNav.m; path = Helpers/PointPathNav.m; sourceTree = "<group>"; };
+		7F61039216F7F788008B7D2E /* BoundingLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BoundingLayer.h; path = Layers/BoundingLayer.h; sourceTree = "<group>"; };
+		7F61039316F7F788008B7D2E /* BoundingLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BoundingLayer.m; path = Layers/BoundingLayer.m; sourceTree = "<group>"; };
+		7F61039416F7F788008B7D2E /* GameLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameLayer.h; path = Layers/GameLayer.h; sourceTree = "<group>"; };
+		7F61039516F7F788008B7D2E /* GameLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameLayer.m; path = Layers/GameLayer.m; sourceTree = "<group>"; };
+		7F61039616F7F788008B7D2E /* GameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameScene.h; path = Layers/GameScene.h; sourceTree = "<group>"; };
+		7F61039716F7F788008B7D2E /* GameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameScene.m; path = Layers/GameScene.m; sourceTree = "<group>"; };
+		7F61039816F7F788008B7D2E /* MapLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapLayer.h; path = Layers/MapLayer.h; sourceTree = "<group>"; };
+		7F61039916F7F788008B7D2E /* MapLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapLayer.m; path = Layers/MapLayer.m; sourceTree = "<group>"; };
+		7F61039A16F7F788008B7D2E /* TransitionScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TransitionScene.h; path = Layers/TransitionScene.h; sourceTree = "<group>"; };
+		7F61039B16F7F788008B7D2E /* TransitionScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TransitionScene.m; path = Layers/TransitionScene.m; sourceTree = "<group>"; };
+		7F61039C16F7F788008B7D2E /* UILayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UILayer.h; path = Layers/UILayer.h; sourceTree = "<group>"; };
+		7F61039D16F7F788008B7D2E /* UILayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UILayer.m; path = Layers/UILayer.m; sourceTree = "<group>"; };
+		7F6103A416F7F7AF008B7D2E /* AIWalkingSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AIWalkingSprite.h; path = Sprites/AIWalkingSprite.h; sourceTree = "<group>"; };
+		7F6103A516F7F7AF008B7D2E /* AIWalkingSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AIWalkingSprite.m; path = Sprites/AIWalkingSprite.m; sourceTree = "<group>"; };
+		7F6103A616F7F7AF008B7D2E /* AnimationSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AnimationSprite.h; path = Sprites/AnimationSprite.h; sourceTree = "<group>"; };
+		7F6103A716F7F7AF008B7D2E /* AnimationSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AnimationSprite.m; path = Sprites/AnimationSprite.m; sourceTree = "<group>"; };
+		7F6103A816F7F7AF008B7D2E /* DragableSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DragableSprite.h; path = Sprites/DragableSprite.h; sourceTree = "<group>"; };
+		7F6103A916F7F7AF008B7D2E /* DragableSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DragableSprite.m; path = Sprites/DragableSprite.m; sourceTree = "<group>"; };
+		7F6103AA16F7F7AF008B7D2E /* TouchableSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TouchableSprite.h; path = Sprites/TouchableSprite.h; sourceTree = "<group>"; };
+		7F6103AB16F7F7AF008B7D2E /* TouchableSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TouchableSprite.m; path = Sprites/TouchableSprite.m; sourceTree = "<group>"; };
+		7F6103AC16F7F7AF008B7D2E /* TowerSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TowerSprite.h; path = Sprites/TowerSprite.h; sourceTree = "<group>"; };
+		7F6103AD16F7F7AF008B7D2E /* TowerSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TowerSprite.m; path = Sprites/TowerSprite.m; sourceTree = "<group>"; };
+		7F6103AE16F7F7AF008B7D2E /* WalkingSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WalkingSprite.h; path = Sprites/WalkingSprite.h; sourceTree = "<group>"; };
+		7F6103AF16F7F7AF008B7D2E /* WalkingSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WalkingSprite.m; path = Sprites/WalkingSprite.m; sourceTree = "<group>"; };
 		7FC8303016EEC3D3006C1A84 /* TileTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TileTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FC8303316EEC3D3006C1A84 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		7FC8303516EEC3D3006C1A84 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -424,26 +445,7 @@
 		7FC8319616EEC3D6006C1A84 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7FC8319816EEC3D6006C1A84 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		7FC8319916EEC3D6006C1A84 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		7FC8319B16EEC3D6006C1A84 /* GameLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameLayer.h; sourceTree = "<group>"; };
-		7FC8319C16EEC3D6006C1A84 /* GameLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameLayer.m; sourceTree = "<group>"; };
 		7FC8319E16EEC3D6006C1A84 /* GameConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameConfig.h; sourceTree = "<group>"; };
-		7FC831A416EEC3F9006C1A84 /* grounds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grounds.png; sourceTree = "<group>"; };
-		7FC831AD16EEF7A2006C1A84 /* map.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = map.tmx; sourceTree = "<group>"; };
-		7FC831B216EF0103006C1A84 /* enemy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = enemy.png; sourceTree = "<group>"; };
-		7FF3DD7B16F16F0D00250756 /* GameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
-		7FF3DD7C16F16F0D00250756 /* GameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
-		7FF3DD7F16F1712F00250756 /* UILayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UILayer.h; sourceTree = "<group>"; };
-		7FF3DD8016F1712F00250756 /* UILayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UILayer.m; sourceTree = "<group>"; };
-		7FF3DD8316F1AA7300250756 /* BoundingLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BoundingLayer.h; path = ../BoundingLayer.h; sourceTree = "<group>"; };
-		7FF3DD8416F1AA7300250756 /* BoundingLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BoundingLayer.m; path = ../BoundingLayer.m; sourceTree = "<group>"; };
-		7FF3DD8616F1AB6200250756 /* GameHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameHelper.h; sourceTree = "<group>"; };
-		7FF3DD8716F1AB6200250756 /* GameHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameHelper.m; sourceTree = "<group>"; };
-		7FF3DD8916F2CC4200250756 /* MapLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapLayer.h; sourceTree = "<group>"; };
-		7FF3DD8A16F2CC4200250756 /* MapLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapLayer.m; sourceTree = "<group>"; };
-		7FF3DD8C16F2E9A600250756 /* InputHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InputHelper.h; path = ../InputHelper.h; sourceTree = "<group>"; };
-		7FF3DD8D16F2E9A600250756 /* InputHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InputHelper.m; path = ../InputHelper.m; sourceTree = "<group>"; };
-		7FFF4D2C16F45261001FEE45 /* WalkingSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WalkingSprite.h; sourceTree = "<group>"; };
-		7FFF4D2D16F45261001FEE45 /* WalkingSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WalkingSprite.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -468,14 +470,16 @@
 		7F46145116F553E800BD7E0C /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				7FF3DD8616F1AB6200250756 /* GameHelper.h */,
-				7FF3DD8716F1AB6200250756 /* GameHelper.m */,
-				7F466F5716F5554800BD7E0C /* CCAnimationHelper.h */,
-				7F466F5816F5554800BD7E0C /* CCAnimationHelper.m */,
-				7F466F5A16F5560000BD7E0C /* PathNav.h */,
-				7F466F5B16F5560000BD7E0C /* PathNav.m */,
-				7F466F5D16F5567800BD7E0C /* PointPathNav.h */,
-				7F466F5E16F5567800BD7E0C /* PointPathNav.m */,
+				7F61038616F7F735008B7D2E /* CCAnimationHelper.h */,
+				7F61038716F7F735008B7D2E /* CCAnimationHelper.m */,
+				7F61038816F7F735008B7D2E /* InputHelper.h */,
+				7F61038916F7F735008B7D2E /* InputHelper.m */,
+				7F61038A16F7F735008B7D2E /* PathNav.h */,
+				7F61038B16F7F736008B7D2E /* PathNav.m */,
+				7F61038C16F7F736008B7D2E /* PointPathNav.h */,
+				7F61038D16F7F736008B7D2E /* PointPathNav.m */,
+				7F61038316F7F6DF008B7D2E /* GameHelper.h */,
+				7F61038416F7F6DF008B7D2E /* GameHelper.m */,
 			);
 			name = Helpers;
 			sourceTree = "<group>";
@@ -483,18 +487,18 @@
 		7F46145216F553EE00BD7E0C /* Sprites */ = {
 			isa = PBXGroup;
 			children = (
-				7FFF4D2C16F45261001FEE45 /* WalkingSprite.h */,
-				7FFF4D2D16F45261001FEE45 /* WalkingSprite.m */,
-				7F46144D16F4CDAB00BD7E0C /* AIWalkingSprite.h */,
-				7F46144E16F4CDAB00BD7E0C /* AIWalkingSprite.m */,
-				7F61033916F766FB008B7D2E /* AnimationSprite.h */,
-				7F61033A16F766FB008B7D2E /* AnimationSprite.m */,
-				7F61033E16F77120008B7D2E /* TowerSprite.h */,
-				7F61033F16F77120008B7D2E /* TowerSprite.m */,
-				7F61034116F773F4008B7D2E /* TouchableSprite.h */,
-				7F61034216F773F4008B7D2E /* TouchableSprite.m */,
-				7F61034416F77406008B7D2E /* DragableSprite.h */,
-				7F61034516F77406008B7D2E /* DragableSprite.m */,
+				7F6103A416F7F7AF008B7D2E /* AIWalkingSprite.h */,
+				7F6103A516F7F7AF008B7D2E /* AIWalkingSprite.m */,
+				7F6103A616F7F7AF008B7D2E /* AnimationSprite.h */,
+				7F6103A716F7F7AF008B7D2E /* AnimationSprite.m */,
+				7F6103A816F7F7AF008B7D2E /* DragableSprite.h */,
+				7F6103A916F7F7AF008B7D2E /* DragableSprite.m */,
+				7F6103AA16F7F7AF008B7D2E /* TouchableSprite.h */,
+				7F6103AB16F7F7AF008B7D2E /* TouchableSprite.m */,
+				7F6103AC16F7F7AF008B7D2E /* TowerSprite.h */,
+				7F6103AD16F7F7AF008B7D2E /* TowerSprite.m */,
+				7F6103AE16F7F7AF008B7D2E /* WalkingSprite.h */,
+				7F6103AF16F7F7AF008B7D2E /* WalkingSprite.m */,
 			);
 			name = Sprites;
 			sourceTree = "<group>";
@@ -539,8 +543,6 @@
 				7FC8319516EEC3D6006C1A84 /* AppDelegate.h */,
 				7FC8319616EEC3D6006C1A84 /* AppDelegate.m */,
 				7FC8319E16EEC3D6006C1A84 /* GameConfig.h */,
-				7FF3DD8C16F2E9A600250756 /* InputHelper.h */,
-				7FF3DD8D16F2E9A600250756 /* InputHelper.m */,
 				7FF3DD8216F1714D00250756 /* Layers */,
 				7FC8305816EEC3D3006C1A84 /* libs */,
 				7FC8304416EEC3D3006C1A84 /* Resources */,
@@ -554,25 +556,27 @@
 		7FC8304416EEC3D3006C1A84 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				7F61035516F78132008B7D2E /* ZombieMove0.png */,
-				7F61034716F77FA8008B7D2E /* ZombieMove1.png */,
-				7F61034816F77FA8008B7D2E /* ZombieMove2.png */,
-				7F61034916F77FA8008B7D2E /* ZombieMove3.png */,
-				7F61034A16F77FA8008B7D2E /* ZombieMove4.png */,
-				7F61034C16F77FA8008B7D2E /* ZombieMoveMap1.png */,
-				7F61034D16F77FA8008B7D2E /* ZombieMoveMapwithPath.tmx */,
-				7F61033C16F770BE008B7D2E /* 1.png */,
-				7F61032F16F75999008B7D2E /* ship-anim0.png */,
-				7F61033016F75999008B7D2E /* ship-anim1.png */,
-				7F61033116F75999008B7D2E /* ship-anim2.png */,
-				7F61033216F75999008B7D2E /* ship-anim3.png */,
-				7F61033316F75999008B7D2E /* ship-anim4.png */,
-				7F4F689416F311A300C10FAB /* bitmapfont.fnt */,
-				7F4F689516F311A300C10FAB /* bitmapfont.png */,
+				7F61035716F7F4F9008B7D2E /* 1.png */,
+				7F61035816F7F4F9008B7D2E /* bitmapfont.fnt */,
+				7F61035916F7F4F9008B7D2E /* bitmapfont.png */,
+				7F61035A16F7F4F9008B7D2E /* enemy.png */,
+				7F61035B16F7F4F9008B7D2E /* grounds.png */,
+				7F61035C16F7F4F9008B7D2E /* map.jpg */,
+				7F61035D16F7F4F9008B7D2E /* map.tmx */,
+				7F61035E16F7F4F9008B7D2E /* ship-anim0.png */,
+				7F61035F16F7F4F9008B7D2E /* ship-anim1.png */,
+				7F61036016F7F4F9008B7D2E /* ship-anim2.png */,
+				7F61036116F7F4F9008B7D2E /* ship-anim3.png */,
+				7F61036216F7F4F9008B7D2E /* ship-anim4.png */,
+				7F61036316F7F4F9008B7D2E /* ZombieMove0.png */,
+				7F61036416F7F4F9008B7D2E /* ZombieMove1.png */,
+				7F61036516F7F4F9008B7D2E /* ZombieMove2.png */,
+				7F61036616F7F4F9008B7D2E /* ZombieMove3.png */,
+				7F61036716F7F4F9008B7D2E /* ZombieMove4.png */,
+				7F61036816F7F4F9008B7D2E /* ZombieMoveMap1.png */,
+				7F61036916F7F4F9008B7D2E /* ZombieMoveMapwithPath.tmx */,
 				7FC8304516EEC3D3006C1A84 /* Default.png */,
-				7FC831B216EF0103006C1A84 /* enemy.png */,
 				7FC8304716EEC3D3006C1A84 /* fps_images.png */,
-				7FC831A416EEC3F9006C1A84 /* grounds.png */,
 				7FC8304916EEC3D3006C1A84 /* Icon-72.png */,
 				7FC8304B16EEC3D3006C1A84 /* Icon-Small-50.png */,
 				7FC8304D16EEC3D3006C1A84 /* Icon-Small.png */,
@@ -581,7 +585,6 @@
 				7FC8305316EEC3D3006C1A84 /* Icon@2x.png */,
 				7FC8305516EEC3D3006C1A84 /* Info.plist */,
 				7FC8305616EEC3D3006C1A84 /* iTunesArtwork */,
-				7FC831AD16EEF7A2006C1A84 /* map.tmx */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -900,18 +903,18 @@
 		7FF3DD8216F1714D00250756 /* Layers */ = {
 			isa = PBXGroup;
 			children = (
-				7FF3DD8316F1AA7300250756 /* BoundingLayer.h */,
-				7FF3DD8416F1AA7300250756 /* BoundingLayer.m */,
-				7FC8319B16EEC3D6006C1A84 /* GameLayer.h */,
-				7FC8319C16EEC3D6006C1A84 /* GameLayer.m */,
-				7FF3DD7B16F16F0D00250756 /* GameScene.h */,
-				7FF3DD7C16F16F0D00250756 /* GameScene.m */,
-				7FF3DD7F16F1712F00250756 /* UILayer.h */,
-				7FF3DD8016F1712F00250756 /* UILayer.m */,
-				7FF3DD8916F2CC4200250756 /* MapLayer.h */,
-				7FF3DD8A16F2CC4200250756 /* MapLayer.m */,
-				7F4F689816F3667F00C10FAB /* TransitionScene.h */,
-				7F4F689916F3667F00C10FAB /* TransitionScene.m */,
+				7F61039216F7F788008B7D2E /* BoundingLayer.h */,
+				7F61039316F7F788008B7D2E /* BoundingLayer.m */,
+				7F61039416F7F788008B7D2E /* GameLayer.h */,
+				7F61039516F7F788008B7D2E /* GameLayer.m */,
+				7F61039616F7F788008B7D2E /* GameScene.h */,
+				7F61039716F7F788008B7D2E /* GameScene.m */,
+				7F61039816F7F788008B7D2E /* MapLayer.h */,
+				7F61039916F7F788008B7D2E /* MapLayer.m */,
+				7F61039A16F7F788008B7D2E /* TransitionScene.h */,
+				7F61039B16F7F788008B7D2E /* TransitionScene.m */,
+				7F61039C16F7F788008B7D2E /* UILayer.h */,
+				7F61039D16F7F788008B7D2E /* UILayer.m */,
 			);
 			name = Layers;
 			sourceTree = "<group>";
@@ -976,24 +979,25 @@
 				7FC8305216EEC3D3006C1A84 /* Icon.png in Resources */,
 				7FC8305416EEC3D3006C1A84 /* Icon@2x.png in Resources */,
 				7FC8305716EEC3D3006C1A84 /* iTunesArtwork in Resources */,
-				7FC831A616EEC3F9006C1A84 /* grounds.png in Resources */,
-				7FC831AF16EEF7A2006C1A84 /* map.tmx in Resources */,
-				7FC831B316EF0103006C1A84 /* enemy.png in Resources */,
-				7F4F689616F311A300C10FAB /* bitmapfont.fnt in Resources */,
-				7F4F689716F311A300C10FAB /* bitmapfont.png in Resources */,
-				7F61033416F75999008B7D2E /* ship-anim0.png in Resources */,
-				7F61033516F75999008B7D2E /* ship-anim1.png in Resources */,
-				7F61033616F75999008B7D2E /* ship-anim2.png in Resources */,
-				7F61033716F75999008B7D2E /* ship-anim3.png in Resources */,
-				7F61033816F75999008B7D2E /* ship-anim4.png in Resources */,
-				7F61033D16F770BE008B7D2E /* 1.png in Resources */,
-				7F61034E16F77FA8008B7D2E /* ZombieMove1.png in Resources */,
-				7F61034F16F77FA8008B7D2E /* ZombieMove2.png in Resources */,
-				7F61035016F77FA8008B7D2E /* ZombieMove3.png in Resources */,
-				7F61035116F77FA8008B7D2E /* ZombieMove4.png in Resources */,
-				7F61035316F77FA8008B7D2E /* ZombieMoveMap1.png in Resources */,
-				7F61035416F77FA8008B7D2E /* ZombieMoveMapwithPath.tmx in Resources */,
-				7F61035616F78132008B7D2E /* ZombieMove0.png in Resources */,
+				7F61036A16F7F4F9008B7D2E /* 1.png in Resources */,
+				7F61036B16F7F4F9008B7D2E /* bitmapfont.fnt in Resources */,
+				7F61036C16F7F4F9008B7D2E /* bitmapfont.png in Resources */,
+				7F61036D16F7F4F9008B7D2E /* enemy.png in Resources */,
+				7F61036E16F7F4F9008B7D2E /* grounds.png in Resources */,
+				7F61036F16F7F4F9008B7D2E /* map.jpg in Resources */,
+				7F61037016F7F4F9008B7D2E /* map.tmx in Resources */,
+				7F61037116F7F4F9008B7D2E /* ship-anim0.png in Resources */,
+				7F61037216F7F4F9008B7D2E /* ship-anim1.png in Resources */,
+				7F61037316F7F4F9008B7D2E /* ship-anim2.png in Resources */,
+				7F61037416F7F4F9008B7D2E /* ship-anim3.png in Resources */,
+				7F61037516F7F4F9008B7D2E /* ship-anim4.png in Resources */,
+				7F61037616F7F4F9008B7D2E /* ZombieMove0.png in Resources */,
+				7F61037716F7F4F9008B7D2E /* ZombieMove1.png in Resources */,
+				7F61037816F7F4F9008B7D2E /* ZombieMove2.png in Resources */,
+				7F61037916F7F4F9008B7D2E /* ZombieMove3.png in Resources */,
+				7F61037A16F7F4F9008B7D2E /* ZombieMove4.png in Resources */,
+				7F61037B16F7F4F9008B7D2E /* ZombieMoveMap1.png in Resources */,
+				7F61037C16F7F4F9008B7D2E /* ZombieMoveMapwithPath.tmx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1101,23 +1105,23 @@
 				7FC8319416EEC3D6006C1A84 /* main.m in Sources */,
 				7FC8319716EEC3D6006C1A84 /* AppDelegate.m in Sources */,
 				7FC8319A16EEC3D6006C1A84 /* RootViewController.m in Sources */,
-				7FC8319D16EEC3D6006C1A84 /* GameLayer.m in Sources */,
-				7FF3DD7D16F16F0D00250756 /* GameScene.m in Sources */,
-				7FF3DD8116F1712F00250756 /* UILayer.m in Sources */,
-				7FF3DD8516F1AA7300250756 /* BoundingLayer.m in Sources */,
-				7FF3DD8816F1AB6200250756 /* GameHelper.m in Sources */,
-				7FF3DD8B16F2CC4200250756 /* MapLayer.m in Sources */,
-				7FF3DD8E16F2E9A700250756 /* InputHelper.m in Sources */,
-				7F4F689A16F3667F00C10FAB /* TransitionScene.m in Sources */,
-				7FFF4D2E16F45261001FEE45 /* WalkingSprite.m in Sources */,
-				7F46144F16F4CDAB00BD7E0C /* AIWalkingSprite.m in Sources */,
-				7F466F5916F5554800BD7E0C /* CCAnimationHelper.m in Sources */,
-				7F466F5C16F5560000BD7E0C /* PathNav.m in Sources */,
-				7F466F5F16F5567800BD7E0C /* PointPathNav.m in Sources */,
-				7F61033B16F766FB008B7D2E /* AnimationSprite.m in Sources */,
-				7F61034016F77120008B7D2E /* TowerSprite.m in Sources */,
-				7F61034316F773F5008B7D2E /* TouchableSprite.m in Sources */,
-				7F61034616F77406008B7D2E /* DragableSprite.m in Sources */,
+				7F61038516F7F6DF008B7D2E /* GameHelper.m in Sources */,
+				7F61038E16F7F736008B7D2E /* CCAnimationHelper.m in Sources */,
+				7F61038F16F7F736008B7D2E /* InputHelper.m in Sources */,
+				7F61039016F7F736008B7D2E /* PathNav.m in Sources */,
+				7F61039116F7F736008B7D2E /* PointPathNav.m in Sources */,
+				7F61039E16F7F788008B7D2E /* BoundingLayer.m in Sources */,
+				7F61039F16F7F788008B7D2E /* GameLayer.m in Sources */,
+				7F6103A016F7F788008B7D2E /* GameScene.m in Sources */,
+				7F6103A116F7F788008B7D2E /* MapLayer.m in Sources */,
+				7F6103A216F7F788008B7D2E /* TransitionScene.m in Sources */,
+				7F6103A316F7F788008B7D2E /* UILayer.m in Sources */,
+				7F6103B016F7F7AF008B7D2E /* AIWalkingSprite.m in Sources */,
+				7F6103B116F7F7AF008B7D2E /* AnimationSprite.m in Sources */,
+				7F6103B216F7F7AF008B7D2E /* DragableSprite.m in Sources */,
+				7F6103B316F7F7AF008B7D2E /* TouchableSprite.m in Sources */,
+				7F6103B416F7F7AF008B7D2E /* TowerSprite.m in Sources */,
+				7F6103B516F7F7AF008B7D2E /* WalkingSprite.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

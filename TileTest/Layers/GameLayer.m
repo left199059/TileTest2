@@ -44,7 +44,7 @@ int spawnTimeRnd = 80;
 //        NSString* name = [NSString stringWithFormat:@"PATH%i",i];
 //        [paths addObject: name];
 //    }
-    [paths addObject: @"PATH1"];
+    [paths addObject: @"PATH8"];
     [paths addObject: @"PATH2"];
 //    [paths addObject: @"PATH3"];
 //    [paths addObject: @"PATH4"];
