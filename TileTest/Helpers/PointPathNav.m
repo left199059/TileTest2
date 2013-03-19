@@ -11,9 +11,7 @@
 @implementation PointPathNav
 
 
-MapLayer* _mapLayer;
-CGPoint prevPos;
-NSString* _layerName;
+@synthesize layerName = _layerName;
 
 
 -(id) initWithMap:(MapLayer *)map andLayer:(NSString* ) layerName
@@ -21,7 +19,7 @@ NSString* _layerName;
 	self = [super init];
     if(self==nil)
         return nil;
-    _layerName = layerName;
+    self.layerName = layerName;
     
     _mapLayer = map;
     
@@ -44,7 +42,7 @@ NSString* _layerName;
         for(int y = 0;y<height;y++)
         {
             CGPoint nextPos = ccp(x,y);
-            NSString* dir = [_mapLayer tileKey:@"dir" AtPoint:nextPos inLayer:_layerName];
+            NSString* dir = [_mapLayer tileKey:@"dir" AtPoint:nextPos inLayer:self.layerName];
             
             if([dir isEqualToString:@"start"] )
             {
@@ -70,7 +68,7 @@ NSString* _layerName;
 {
     CGPoint nextPos = CGPointMake(-1, -1);
     
-    NSString* dir = [_mapLayer tileKey:@"dir" AtPoint:currentPos inLayer:_layerName];
+    NSString* dir = [_mapLayer tileKey:@"dir" AtPoint:currentPos inLayer:self.layerName];
     
     
     for(int i= 1;i<=15;i++)
@@ -91,7 +89,7 @@ NSString* _layerName;
                     continue;
                 
                 nextPos = ccp(x,y);
-                bool isPath = [_mapLayer tileExistsAtPoint:nextPos inLayer:_layerName];
+                bool isPath = [_mapLayer tileExistsAtPoint:nextPos inLayer:self.layerName];
                 
                 if(isPath)
                 {
@@ -108,7 +106,7 @@ NSString* _layerName;
                         //prefer to left
                         if([dir isEqualToString:@"left"] && x<currentPos.x)
                         {
-                            if(y!=currentPos.y && [_mapLayer tileExistsAtPoint:ccp(nextPos.x, currentPos.y) inLayer:_layerName])
+                            if(y!=currentPos.y && [_mapLayer tileExistsAtPoint:ccp(nextPos.x, currentPos.y) inLayer:self.layerName])
                                 continue;
                             
                             return nextPos;
@@ -117,7 +115,7 @@ NSString* _layerName;
                         
                         else if([dir isEqualToString:@"right"] && x>currentPos.x)
                         {
-                            if(y!=currentPos.y && [_mapLayer tileExistsAtPoint:ccp(nextPos.x, currentPos.y) inLayer:_layerName])
+                            if(y!=currentPos.y && [_mapLayer tileExistsAtPoint:ccp(nextPos.x, currentPos.y) inLayer:self.layerName])
                                 continue;
                             
                             return nextPos;
@@ -125,7 +123,7 @@ NSString* _layerName;
                         
                         else if([dir isEqualToString:@"up"] && y<currentPos.y)
                         {
-                            if(x!=currentPos.x && [_mapLayer tileExistsAtPoint:ccp(currentPos.x, nextPos.y) inLayer:_layerName])
+                            if(x!=currentPos.x && [_mapLayer tileExistsAtPoint:ccp(currentPos.x, nextPos.y) inLayer:self.layerName])
                                 continue;
                             
                             return nextPos;
@@ -133,7 +131,7 @@ NSString* _layerName;
                         
                         else if([dir isEqualToString:@"down"] && y>currentPos.y)
                         {
-                            if(x!=currentPos.x && [_mapLayer tileExistsAtPoint:ccp(currentPos.x, nextPos.y) inLayer:_layerName])
+                            if(x!=currentPos.x && [_mapLayer tileExistsAtPoint:ccp(currentPos.x, nextPos.y) inLayer:self.layerName])
                                 continue;
                             
                             return nextPos;

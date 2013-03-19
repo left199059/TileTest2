@@ -21,7 +21,7 @@
 	GameLayer *layer = [GameLayer node];
     layer.anchorPoint = CGPointMake(0, 0);
     BoundingLayer *camera = [BoundingLayer node];
-    
+    camera.scale = 0.3;
     
     [camera setBound:layer->mapPixcelSize];
     [camera addChild:layer];

@@ -12,10 +12,10 @@ WalkingSprite* _hero;
 InputHelper* input;
 bool moved;
 CCRibbon* ribbon;
-int _enemyCount=1;
+int _enemyCount=20;
 int nextSpawnTime = 0;
-int spawnTimeContant = 80;
-int spawnTimeRnd = 300;
+int spawnTimeContant = 30;
+int spawnTimeRnd = 50;
 
 
 
@@ -41,12 +41,17 @@ int spawnTimeRnd = 300;
     //all paths layer names
     NSMutableArray* paths = [NSMutableArray array];
     
-//    for(int i=1;i<=1;i++)
-//    {
-//        NSString* name = [NSString stringWithFormat:@"PATH%i",i];
-//        [paths addObject: name];
-//    }
-    [paths addObject: @"PATH1"];
+    
+    NSString* name;
+    
+    for(int i=1;i<=8;i++)
+    {
+        
+        name = [NSString stringWithFormat:@"PATH%i",i];
+
+        [paths addObject: name];
+    }
+    //[paths addObject: @"PATH1"];
     //[paths addObject: @"PATH2"];
 //    [paths addObject: @"PATH3"];
 //    [paths addObject: @"PATH4"];
@@ -61,7 +66,7 @@ int spawnTimeRnd = 300;
     {
         int index = rand()% [paths count];
         NSString* pathLayer = [paths objectAtIndex:index];
-        
+        pathLayer = [NSString stringWithString:pathLayer];
         PointPathNav* pathNav = [[PointPathNav alloc] initWithMap:self  andLayer:pathLayer];
         
         AIWalkingSprite* _enemy = [AIWalkingSprite spriteWithFile:@"HeroArcherMove0.png" andNav:pathNav];
