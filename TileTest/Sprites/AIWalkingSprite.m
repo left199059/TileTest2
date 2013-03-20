@@ -38,21 +38,26 @@
 -(void)dealloc
 {
     [_pathNav dealloc];
-     [super dealloc];
+    [super dealloc];
 }
 
 -(void) start
 {
     
     [self onArrived];
-    
-   
+    self.visible = true;
+    self.scale = 1;
+    [self startAnimationRepeat:@"ZombieMove"  frameCount:6 delay:0.15 random:YES tag:101];
     
 }
 
 
 -(void) onArrived
 {
+    if(!self.visible)
+        return ;
+    
+    
     CGPoint next = [_pathNav getNext:self.position];
     //ADD SOME COMMENTsss ssseee
     if(next.x==-1)

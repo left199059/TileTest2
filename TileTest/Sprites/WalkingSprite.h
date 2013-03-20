@@ -11,8 +11,11 @@
 @interface WalkingSprite : CCSprite
 
 {
-    @public
+@public
     float speed;
+
+    int health;
+    
 }
 -(id) initWithFile:(NSString *)filename ;
 
@@ -20,5 +23,11 @@
 
 
 -(void) update:(ccTime)delta;
+
+
+-(void) damage:(int) amount;
+
+-(void) start;
+
 
 @end

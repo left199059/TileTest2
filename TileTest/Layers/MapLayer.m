@@ -29,13 +29,13 @@
     
 
     
-//    for(int i=1;i<=8;i++)
-//    {
-//        NSString* name = [NSString stringWithFormat:@"PATH%i",i];
-//        
-//        CCTMXLayer* _eventLayer = [_tileMap layerNamed:name];
-//        _eventLayer.visible = NO;
-//    }
+    for(int i=1;i<=8;i++)
+    {
+        NSString* name = [NSString stringWithFormat:@"PATH%i",i];
+        
+        CCTMXLayer* _eventLayer = [_tileMap layerNamed:name];
+        _eventLayer.visible = NO;
+    }
 
     
     [self unscheduleUpdate];

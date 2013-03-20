@@ -17,6 +17,6 @@
 +(id) spriteWithFile:(NSString *)filename andNav:(PathNav*) pathNav;
 
 
--(void) start;
+
 
 @end

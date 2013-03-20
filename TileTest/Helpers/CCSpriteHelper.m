@@ -10,23 +10,23 @@
 
 @implementation CCSprite (Helper)
 
--(CCAction*) startAnimation:(NSString*) frameSetName frameCount:(int)frameCount delay:(float)delay
+-(CCAction*) startAnimation:(NSString*) frameSetName frameCount:(int)frameCount delay:(float)delay random:(bool)random tag:(int)tag
 {
-    CCAnimation* anim = [CCAnimation animationWithFile:frameSetName frameCount:frameCount delay:delay reverse:NO];
-    
-    CCAnimate* animate = [CCAnimate actionWithAnimation:anim];
+    CCAnimation* anim = [CCAnimation animationWithFile:frameSetName frameCount:frameCount delay:delay random:random];
  
+    CCAnimate* animate = [CCAnimate actionWithAnimation:anim];
+    animate.tag = tag;
     return [self runAction:animate];
 }
 
--(CCAction*) startAnimationRepeat:(NSString*) frameSetName frameCount:(int)frameCount delay:(float)delay
+-(CCAction*) startAnimationRepeat:(NSString*) frameSetName frameCount:(int)frameCount delay:(float)delay  random:(bool)random tag:(int)tag
 {
-    CCAnimation* anim = [CCAnimation animationWithFile:frameSetName frameCount:frameCount delay:delay reverse:NO];
+    CCAnimation* anim = [CCAnimation animationWithFile:frameSetName frameCount:frameCount delay:delay random:random];
     
     CCAnimate* animate = [CCAnimate actionWithAnimation:anim];
     CCRepeatForever* repeat = [CCRepeatForever actionWithAction:animate];
-    
-    return [self runAction:repeat];
+    repeat.tag = tag;
+    return [self runAction:repeat ];
 }
 
 

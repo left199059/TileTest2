@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F29C51716F8B68200B38E37 /* Zombie.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7F29C51616F8B68200B38E37 /* Zombie.mp3 */; };
+		7F29C51916F8B76F00B38E37 /* blues.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7F29C51816F8B76F00B38E37 /* blues.mp3 */; };
+		7F3BC00116F95279004B8AD3 /* alien-sfx.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7F3BC00016F95279004B8AD3 /* alien-sfx.caf */; };
+		7F3BC00A16F95C7D004B8AD3 /* ZombieAttack0.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3BC00216F95C7D004B8AD3 /* ZombieAttack0.png */; };
+		7F3BC00B16F95C7D004B8AD3 /* ZombieAttack1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3BC00316F95C7D004B8AD3 /* ZombieAttack1.png */; };
+		7F3BC00C16F95C7D004B8AD3 /* ZombieAttack2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3BC00416F95C7D004B8AD3 /* ZombieAttack2.png */; };
+		7F3BC00D16F95C7D004B8AD3 /* ZombieAttack3.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3BC00516F95C7D004B8AD3 /* ZombieAttack3.png */; };
+		7F3BC00E16F95C7D004B8AD3 /* ZombieDead0.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3BC00616F95C7D004B8AD3 /* ZombieDead0.png */; };
+		7F3BC00F16F95C7D004B8AD3 /* ZombieDead1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3BC00716F95C7D004B8AD3 /* ZombieDead1.png */; };
+		7F3BC01016F95C7D004B8AD3 /* ZombieDead2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3BC00816F95C7D004B8AD3 /* ZombieDead2.png */; };
+		7F3BC01116F95C7D004B8AD3 /* ZombieMove4.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3BC00916F95C7D004B8AD3 /* ZombieMove4.png */; };
 		7F61036A16F7F4F9008B7D2E /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F61035716F7F4F9008B7D2E /* 1.png */; };
 		7F61036B16F7F4F9008B7D2E /* bitmapfont.fnt in Resources */ = {isa = PBXBuildFile; fileRef = 7F61035816F7F4F9008B7D2E /* bitmapfont.fnt */; };
 		7F61036C16F7F4F9008B7D2E /* bitmapfont.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F61035916F7F4F9008B7D2E /* bitmapfont.png */; };
@@ -23,7 +34,6 @@
 		7F61037716F7F4F9008B7D2E /* ZombieMove1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F61036416F7F4F9008B7D2E /* ZombieMove1.png */; };
 		7F61037816F7F4F9008B7D2E /* ZombieMove2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F61036516F7F4F9008B7D2E /* ZombieMove2.png */; };
 		7F61037916F7F4F9008B7D2E /* ZombieMove3.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F61036616F7F4F9008B7D2E /* ZombieMove3.png */; };
-		7F61037A16F7F4F9008B7D2E /* ZombieMove4.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F61036716F7F4F9008B7D2E /* ZombieMove4.png */; };
 		7F61037B16F7F4F9008B7D2E /* ZombieMoveMap1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F61036816F7F4F9008B7D2E /* ZombieMoveMap1.png */; };
 		7F61037C16F7F4F9008B7D2E /* ZombieMoveMapwithPath.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 7F61036916F7F4F9008B7D2E /* ZombieMoveMapwithPath.tmx */; };
 		7F61038516F7F6DF008B7D2E /* GameHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F61038416F7F6DF008B7D2E /* GameHelper.m */; };
@@ -173,6 +183,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7F29C51616F8B68200B38E37 /* Zombie.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Zombie.mp3; path = Resources/Zombie.mp3; sourceTree = "<group>"; };
+		7F29C51816F8B76F00B38E37 /* blues.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = blues.mp3; path = Resources/blues.mp3; sourceTree = "<group>"; };
+		7F3BC00016F95279004B8AD3 /* alien-sfx.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "alien-sfx.caf"; path = "Resources/alien-sfx.caf"; sourceTree = "<group>"; };
+		7F3BC00216F95C7D004B8AD3 /* ZombieAttack0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ZombieAttack0.png; path = Resources/ZombieAttack0.png; sourceTree = "<group>"; };
+		7F3BC00316F95C7D004B8AD3 /* ZombieAttack1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ZombieAttack1.png; path = Resources/ZombieAttack1.png; sourceTree = "<group>"; };
+		7F3BC00416F95C7D004B8AD3 /* ZombieAttack2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ZombieAttack2.png; path = Resources/ZombieAttack2.png; sourceTree = "<group>"; };
+		7F3BC00516F95C7D004B8AD3 /* ZombieAttack3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ZombieAttack3.png; path = Resources/ZombieAttack3.png; sourceTree = "<group>"; };
+		7F3BC00616F95C7D004B8AD3 /* ZombieDead0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ZombieDead0.png; path = Resources/ZombieDead0.png; sourceTree = "<group>"; };
+		7F3BC00716F95C7D004B8AD3 /* ZombieDead1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ZombieDead1.png; path = Resources/ZombieDead1.png; sourceTree = "<group>"; };
+		7F3BC00816F95C7D004B8AD3 /* ZombieDead2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ZombieDead2.png; path = Resources/ZombieDead2.png; sourceTree = "<group>"; };
+		7F3BC00916F95C7D004B8AD3 /* ZombieMove4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ZombieMove4.png; path = Resources/ZombieMove4.png; sourceTree = "<group>"; };
 		7F61035716F7F4F9008B7D2E /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1.png; path = Resources/1.png; sourceTree = "<group>"; };
 		7F61035816F7F4F9008B7D2E /* bitmapfont.fnt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = bitmapfont.fnt; path = Resources/bitmapfont.fnt; sourceTree = "<group>"; };
 		7F61035916F7F4F9008B7D2E /* bitmapfont.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bitmapfont.png; path = Resources/bitmapfont.png; sourceTree = "<group>"; };
@@ -189,7 +210,6 @@
 		7F61036416F7F4F9008B7D2E /* ZombieMove1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ZombieMove1.png; path = Resources/ZombieMove1.png; sourceTree = "<group>"; };
 		7F61036516F7F4F9008B7D2E /* ZombieMove2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ZombieMove2.png; path = Resources/ZombieMove2.png; sourceTree = "<group>"; };
 		7F61036616F7F4F9008B7D2E /* ZombieMove3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ZombieMove3.png; path = Resources/ZombieMove3.png; sourceTree = "<group>"; };
-		7F61036716F7F4F9008B7D2E /* ZombieMove4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ZombieMove4.png; path = Resources/ZombieMove4.png; sourceTree = "<group>"; };
 		7F61036816F7F4F9008B7D2E /* ZombieMoveMap1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ZombieMoveMap1.png; path = Resources/ZombieMoveMap1.png; sourceTree = "<group>"; };
 		7F61036916F7F4F9008B7D2E /* ZombieMoveMapwithPath.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = ZombieMoveMapwithPath.tmx; path = Resources/ZombieMoveMapwithPath.tmx; sourceTree = "<group>"; };
 		7F61038316F7F6DF008B7D2E /* GameHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameHelper.h; path = Helpers/GameHelper.h; sourceTree = "<group>"; };
@@ -582,6 +602,17 @@
 		7FC8304416EEC3D3006C1A84 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				7F3BC00216F95C7D004B8AD3 /* ZombieAttack0.png */,
+				7F3BC00316F95C7D004B8AD3 /* ZombieAttack1.png */,
+				7F3BC00416F95C7D004B8AD3 /* ZombieAttack2.png */,
+				7F3BC00516F95C7D004B8AD3 /* ZombieAttack3.png */,
+				7F3BC00616F95C7D004B8AD3 /* ZombieDead0.png */,
+				7F3BC00716F95C7D004B8AD3 /* ZombieDead1.png */,
+				7F3BC00816F95C7D004B8AD3 /* ZombieDead2.png */,
+				7F3BC00916F95C7D004B8AD3 /* ZombieMove4.png */,
+				7F3BC00016F95279004B8AD3 /* alien-sfx.caf */,
+				7F29C51816F8B76F00B38E37 /* blues.mp3 */,
+				7F29C51616F8B68200B38E37 /* Zombie.mp3 */,
 				7F6103C316F87B0B008B7D2E /* HeroArcherAttackwithArrow0.png */,
 				7F6103C416F87B0B008B7D2E /* HeroArcherAttackwithArrow1.png */,
 				7F6103C516F87B0C008B7D2E /* HeroArcherAttackwithArrow2.png */,
@@ -611,7 +642,6 @@
 				7F61036416F7F4F9008B7D2E /* ZombieMove1.png */,
 				7F61036516F7F4F9008B7D2E /* ZombieMove2.png */,
 				7F61036616F7F4F9008B7D2E /* ZombieMove3.png */,
-				7F61036716F7F4F9008B7D2E /* ZombieMove4.png */,
 				7F61036816F7F4F9008B7D2E /* ZombieMoveMap1.png */,
 				7F61036916F7F4F9008B7D2E /* ZombieMoveMapwithPath.tmx */,
 				7FC8304516EEC3D3006C1A84 /* Default.png */,
@@ -1034,7 +1064,6 @@
 				7F61037716F7F4F9008B7D2E /* ZombieMove1.png in Resources */,
 				7F61037816F7F4F9008B7D2E /* ZombieMove2.png in Resources */,
 				7F61037916F7F4F9008B7D2E /* ZombieMove3.png in Resources */,
-				7F61037A16F7F4F9008B7D2E /* ZombieMove4.png in Resources */,
 				7F61037B16F7F4F9008B7D2E /* ZombieMoveMap1.png in Resources */,
 				7F61037C16F7F4F9008B7D2E /* ZombieMoveMapwithPath.tmx in Resources */,
 				7F6103BB16F85BE1008B7D2E /* HeroArcherMove0.png in Resources */,
@@ -1050,6 +1079,17 @@
 				7F6103D216F87B0C008B7D2E /* HeroArcherMove6.png in Resources */,
 				7F6103D316F87B0C008B7D2E /* HeroArcherMove7.png in Resources */,
 				7F6103D416F87B0C008B7D2E /* ZombieMove5.png in Resources */,
+				7F29C51716F8B68200B38E37 /* Zombie.mp3 in Resources */,
+				7F29C51916F8B76F00B38E37 /* blues.mp3 in Resources */,
+				7F3BC00116F95279004B8AD3 /* alien-sfx.caf in Resources */,
+				7F3BC00A16F95C7D004B8AD3 /* ZombieAttack0.png in Resources */,
+				7F3BC00B16F95C7D004B8AD3 /* ZombieAttack1.png in Resources */,
+				7F3BC00C16F95C7D004B8AD3 /* ZombieAttack2.png in Resources */,
+				7F3BC00D16F95C7D004B8AD3 /* ZombieAttack3.png in Resources */,
+				7F3BC00E16F95C7D004B8AD3 /* ZombieDead0.png in Resources */,
+				7F3BC00F16F95C7D004B8AD3 /* ZombieDead1.png in Resources */,
+				7F3BC01016F95C7D004B8AD3 /* ZombieDead2.png in Resources */,
+				7F3BC01116F95C7D004B8AD3 /* ZombieMove4.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

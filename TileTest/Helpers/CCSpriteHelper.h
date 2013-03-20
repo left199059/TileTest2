@@ -10,10 +10,11 @@
 
 @interface CCSprite (Helper)
 
--(CCAction*) startAnimation:(NSString*) frameSetName frameCount:(int)frameCount delay:(float)delay;
+
+-(CCAction*) startAnimation:(NSString*) frameSetName frameCount:(int)frameCount delay:(float)delay  random:(bool)random tag:(int)tag;
 
 
--(CCAction*) startAnimationRepeat:(NSString*) frameSetName frameCount:(int)frameCount delay:(float)delay;
+-(CCAction*) startAnimationRepeat:(NSString*) frameSetName frameCount:(int)frameCount delay:(float)delay  random:(bool)random tag:(int)tag;
 
 
 

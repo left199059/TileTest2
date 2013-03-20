@@ -12,7 +12,7 @@ WalkingSprite* _hero;
 InputHelper* input;
 bool moved;
 CCRibbon* ribbon;
-int _enemyCount=20;
+int _enemyCount=1;
 int nextSpawnTime = 0;
 int spawnTimeContant = 30;
 int spawnTimeRnd = 50;
@@ -51,14 +51,7 @@ int spawnTimeRnd = 50;
 
         [paths addObject: name];
     }
-    //[paths addObject: @"PATH1"];
-    //[paths addObject: @"PATH2"];
-//    [paths addObject: @"PATH3"];
-//    [paths addObject: @"PATH4"];
-//    [paths addObject: @"PATH5"];
-//    [paths addObject: @"PATH6"];
-//    [paths addObject: @"PATH7"];
-//    [paths addObject: @"PATH8"];
+
     
     
     
@@ -71,7 +64,7 @@ int spawnTimeRnd = 50;
         
         AIWalkingSprite* _enemy = [AIWalkingSprite spriteWithFile:@"HeroArcherMove0.png" andNav:pathNav];
         
-        [_enemy startAnimationRepeat:@"ZombieMove"  frameCount:6 delay:0.15];
+        
         
        
         [self addChild:_enemy];
@@ -79,7 +72,7 @@ int spawnTimeRnd = 50;
         
         _enemy.visible = false;
      
-        _enemy->speed = 0.01f;
+        _enemy->speed = 0.03f;
 
     }
     
@@ -111,9 +104,11 @@ int spawnTimeRnd = 50;
         PointPathNav* nav = (PointPathNav*) enemy->_pathNav;
         CGPoint startPoint = [nav getFirst];
         startPoint =  [self locationFromTilePos: startPoint];
+        enemy->health = 30;
         enemy.position = startPoint;
-        [enemy start];
+        
         enemy.visible = true;
+        [enemy start];
         
         break;
     }
@@ -187,7 +182,13 @@ int spawnTimeRnd = 50;
 -(void)ccTouchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
     
-   
+    for(AIWalkingSprite* enemy in _enemies)
+    {
+        if(!enemy.visible)
+            continue;
+        
+        [enemy damage:10];
+    }
 }
 
 @end
